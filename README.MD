@@ -1,6 +1,8 @@
 <h1>OICEN-HTR</h1>
 <h2>Old Icelandic / Norse Handwritten Text Recognition</h2>
 
+[![DOI](https://zenodo.org/badge/974032615.svg)](https://doi.org/10.5281/zenodo.15315438)
+
 This repository contains HTR models fine-tuned on Old Icelandic manuscripts. It also contains the ground truth data, but not the images, as they are usually available on <a href = "https://handrit.is/">Handrit.is</a>.
 
 Current models are better suited for Old Icelandic manuscripts than CATMuS. They produce good results, but the recognition of diacritica is imperfect. 
@@ -30,8 +32,6 @@ Current models are better suited for Old Icelandic manuscripts than CATMuS. They
     - Finish AM 132 fol. (MB). Currently 1/3 of the manuscript is annotated.
 
     - Finish Codex Wormianus based on <a href = "https://clarino.uib.no/menota/text/menota/AM-242-fol">Menota AM 242 fol</a> by Karl Gunnar Johansson and Codex Regius based on <a href = "https://eae.ku.dk/q?p=eae/vols/xml/1">EAE GKS 2365 4to</a> by Guðvarður Már Gunnlaugsson, Haraldur Bernharðsson, Vésteinn Ólason, et al.
-
-    - If proven useful, create a Zenodo repository.
 
 <hr/>
 
