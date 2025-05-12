@@ -5,7 +5,7 @@
 
 This repository contains HTR models fine-tuned on Old Icelandic manuscripts. It also contains the ground truth data, but not the images, as they are usually available on <a href = "https://handrit.is/">Handrit.is</a>.
 
-Current models are better suited for Old Icelandic manuscripts than CATMuS. They produce good results, but the recognition of diacritica is imperfect.  
+Current models are better suited for Old Icelandic manuscripts than CATMuS. They produce from moderate to good results.
 
 Link to <a href = "https://doi.org/10.5281/zenodo.15315438">Zenodo</a>.
 
