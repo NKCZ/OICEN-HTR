@@ -1,0 +1,2409 @@
+2025-05-12 10:05:02.984146: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747044303.009074   22955 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747044303.016645   22955 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-05-12 10:05:03.046222: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading model ALL_26.mlmodel	✓
+Evaluating ALL_26.mlmodel
+Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 499/499 0:00:00 1:55:49
+=== report  ===
+
+1081450	Characters
+27999	Errors
+97.41%	Character Accuracy
+91.42%	Word Accuracy
+
+12094	Insertions
+5514	Deletions
+10391	Substitutions
+
+Count	Missed	%Right
+724965	12026	98.34%	Latin
+273760	5521	97.98%	Common
+65859	3647	94.46%	Inherited
+16863	1288	92.36%	Unknown
+3	3	0.00%	Runic
+
+Errors	Correct-Generated
+3696	{ SPACE } - {  }
+2152	{  } - { SPACE }
+1449	{ COMBINING ACUTE ACCENT } - {  }
+933	{ . } - {  }
+856	{  } - { . }
+421	{ ı } - {  }
+375	{ a } - {  }
+373	{  } - { COMBINING ACUTE ACCENT }
+363	{ r } - {  }
+309	{ n } - {  }
+296	{ l } - {  }
+271	{ COMBINING ZIGZAG ABOVE } - {  }
+234	{ ꝺ } - { ð }
+232	{  } - { COMBINING ZIGZAG ABOVE }
+225	{ COMBINING OVERLINE } - {  }
+223	{ i } - { ı }
+218	{ ꞇ } - {  }
+208	{ e } - {  }
+206	{ ſ } - {  }
+201	{ ð } - { ꝺ }
+199	{ COMBINING MACRON } - {  }
+194	{ u } - {  }
+188	{ u } - { n }
+170	{  } - { COMBINING OVERLINE }
+166	{ i } - {  }
+163	{  } - { n }
+162	{  } - { ı }
+152	{ v } - { u }
+148	{ ꝺ } - {  }
+145	{ o } - {  }
+145	{ u } - { v }
+126	{ ꝼ } - {  }
+115	{ g } - {  }
+113	{ m } - {  }
+108	{  } - { i }
+107	{ ⸍ } - {  }
+104	{  } - { a }
+101	{ - } - {  }
+100	{ ƚ } - { ꝉ }
+99	{  } - { COMBINING OGONEK }
+97	{ k } - {  }
+96	{ COMBINING LATIN SMALL LETTER R } - { 0xf02f }
+92	{ r } - { ꞇ }
+90	{ COMBINING LATIN SMALL LETTER R } - {  }
+90	{  } - { r }
+89	{ ⸌ } - {  }
+86	{ COMBINING OGONEK } - {  }
+83	{ u } - { ı }
+83	{ ı } - { i }
+83	{ COMBINING DOT ABOVE } - {  }
+81	{ l } - { ſ }
+80	{ v } - {  }
+77	{ 0xe5dc } - { n }
+77	{ COMBINING LATIN SMALL LETTER I } - { COMBINING ZIGZAG ABOVE }
+74	{ 0xf02f } - {  }
+74	{ ð } - {  }
+69	{  } - { COMBINING MACRON }
+68	{ 0xe73a } - { v }
+68	{ n } - { m }
+68	{  } - { e }
+64	{ a } - { ı }
+64	{ m } - { n }
+63	{ p } - {  }
+63	{ h } - {  }
+61	{ u } - { o }
+59	{ r } - { ı }
+59	{ COMBINING LATIN SMALL LETTER R } - { COMBINING ZIGZAG ABOVE }
+53	{ þ } - {  }
+53	{  } - { ꞇ }
+51	{ n } - { u }
+50	{ ꞇ } - { ı }
+50	{ l } - { ı }
+49	{ o } - { e }
+49	{ ſ } - { ı }
+48	{ o } - { a }
+48	{ ꝛ } - { r }
+47	{ z } - {  }
+47	{ ⁊ } - {  }
+47	{  } - { ſ }
+44	{ u } - { a }
+44	{ v } - { ꝩ }
+43	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - {  }
+42	{ COMBINING ZIGZAG ABOVE } - { 0xf02f }
+42	{ e } - { a }
+41	{  } - { ⸌ }
+41	{ ſ } - { l }
+41	{ r } - { ꝛ }
+40	{ i } - { m }
+40	{  } - { 0xf02f }
+40	{ 0xf02f } - { COMBINING ZIGZAG ABOVE }
+40	{  } - { COMBINING DOT ABOVE }
+39	{ a } - { e }
+39	{  } - { u }
+38	{ ꞇ } - { r }
+37	{ 0xe5dc } - { COMBINING MACRON }
+37	{ ı } - { a }
+37	{ n } - { ı }
+35	{ e } - { o }
+35	{ ı } - { ſ }
+35	{ r } - { n }
+35	{ S } - { s }
+35	{ ı } - { u }
+35	{ r } - { t }
+34	{ c } - {  }
+34	{  } - { l }
+34	{  } - { o }
+34	{ ɢ } - { G }
+33	{ a } - { o }
+33	{  } - { g }
+33	{  } - { t }
+32	{ 0xf02f } - { COMBINING LATIN SMALL LETTER R }
+32	{ c } - { ꞇ }
+31	{ 0xe74d } - { v }
+31	{ p } - { ꝼ }
+31	{  } - { m }
+30	{ t } - {  }
+29	{ b } - {  }
+29	{ SPACE } - { ı }
+28	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN SMALL LETTER R }
+28	{ a } - { n }
+28	{ i } - { n }
+28	{ Þ } - { þ }
+27	{ COMBINING ZIGZAG ABOVE } - { r }
+27	{ COMBINING OVERLINE } - { COMBINING ZIGZAG ABOVE }
+26	{ h } - { b }
+26	{ s } - {  }
+26	{ l } - { k }
+26	{ COMBINING LATIN SMALL LETTER I } - {  }
+26	{ ꜳ } - { 0xefeb }
+25	{ e } - { 0xeee6 }
+25	{ ħ } - { 0xe7c7 }
+25	{ 0xe5b8 } - { m }
+25	{  } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+25	{ SPACE } - { a }
+25	{ ꝼ } - { p }
+25	{ i } - { t }
+24	{ æ } - {  }
+24	{  } - { ⸍ }
+24	{ ꝼ } - { r }
+24	{ y } - {  }
+24	{ ꝛ } - {  }
+23	{ ı } - { m }
+23	{ ı } - { r }
+23	{ æ } - { a }
+23	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING LATIN SMALL LETTER A }
+23	{ ı } - { ꞇ }
+22	{ COMBINING LATIN SMALL LETTER A } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+22	{ n } - { a }
+22	{ þ } - { b }
+22	{ ı } - { n }
+22	{ n } - { r }
+22	{ b } - { h }
+22	{  } - { COMBINING LATIN SMALL LETTER R }
+21	{ E } - { e }
+21	{ r } - { z }
+21	{ E } - { 0xeee6 }
+21	{ m } - { ı }
+21	{ k } - { h }
+21	{ ꝩ } - {  }
+20	{ G } - {  }
+20	{ 0xf1c2 } - {  }
+20	{  } - { COMBINING LATIN SMALL LETTER O }
+20	{ 0xeee6 } - { e }
+20	{ s } - { ſ }
+20	{ ꝩ } - { v }
+19	{  } - { 0xf1c2 }
+19	{ l } - { n }
+19	{ r } - { e }
+19	{ a } - { SPACE }
+19	{ S } - {  }
+19	{ e } - { r }
+19	{ m } - { i }
+19	{ u } - { i }
+18	{  } - { ꝺ }
+18	{  } - { ꝼ }
+17	{ 0xe553 } - {  }
+17	{ ꝉ } - {  }
+17	{ ꝺ } - { o }
+17	{ a } - { g }
+17	{ ʀ } - { 0xef22 }
+17	{  } - { c }
+17	{ a } - { u }
+17	{ g } - { o }
+17	{ l } - { h }
+16	{ V } - { v }
+16	{ e } - { E }
+16	{ v } - { V }
+16	{  } - { k }
+16	{ 0xf094 } - { ꞇ }
+16	{ ꞇ } - { n }
+16	{ 0xef22 } - { ʀ }
+16	{ SPACE } - { r }
+16	{ COMBINING LATIN SMALL LETTER O } - {  }
+16	{  } - { ð }
+16	{ ꝥ } - { 0xe735 }
+16	{  } - { v }
+16	{ v } - { r }
+16	{ e } - { æ }
+16	{ 0xf087 } - { 0xf08a }
+16	{ 0xe7d3 } - { o }
+15	{ COMBINING US ABOVE } - {  }
+15	{ 0xf08a } - { 0xf087 }
+15	{ ꝥ } - {  }
+15	{ c } - { e }
+15	{ e } - { ı }
+15	{ r } - { v }
+15	{ 0xeee6 } - { E }
+15	{  } - { h }
+15	{ r } - { a }
+15	{ r } - { ꝼ }
+15	{ o } - { g }
+14	{ SPACE } - { ſ }
+14	{ . } - { a }
+14	{ ᴍ } - { M }
+14	{ l } - { ꞇ }
+14	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN SMALL LETTER O }
+14	{ J } - {  }
+14	{ n } - { SPACE }
+14	{ ꝺ } - { g }
+14	{ SPACE } - { ꞇ }
+14	{ SPACE } - { n }
+14	{ a } - { ſ }
+14	{ s } - { S }
+14	{ i } - { r }
+14	{ b } - { l }
+14	{ COMBINING OVERLINE } - { m }
+14	{ t } - { i }
+13	{ n } - { ſ }
+13	{ l } - { b }
+13	{ i } - { ſ }
+13	{ b } - { þ }
+13	{ ʀ } - { R }
+13	{ ı } - { l }
+13	{ p } - { n }
+13	{ v } - { y }
+13	{ i } - { u }
+13	{ r } - { i }
+13	{ N } - { ɴ }
+13	{ G } - { ɢ }
+13	{ i } - { a }
+13	{ r } - { SPACE }
+13	{ COMBINING ZIGZAG ABOVE } - { e }
+13	{ r } - { COMBINING ZIGZAG ABOVE }
+13	{ x } - { r }
+13	{  } - { COMBINING LATIN SMALL LETTER I }
+13	{ ſ } - { s }
+13	{ i } - { j }
+12	{ e } - { g }
+12	{ 0xf06b } - { ħ }
+12	{ k } - { l }
+12	{ e } - { ſ }
+12	{ h } - { k }
+12	{ ꞇ } - { z }
+12	{ ꞇ } - { ſ }
+12	{ þ } - { h }
+12	{ o } - { ı }
+12	{ ı } - { SPACE }
+12	{ q } - { g }
+12	{ ſ } - { ꞇ }
+12	{ ꝼ } - { g }
+12	{ COMBINING ZIGZAG ABOVE } - { COMBINING OVERLINE }
+12	{ ɴ } - { n }
+12	{ ı } - { o }
+12	{ M } - { m }
+12	{ v } - { o }
+12	{ e } - { c }
+12	{ o } - { ø }
+12	{ t } - { r }
+11	{ . } - { ı }
+11	{ n } - { ꞇ }
+11	{ z } - { ꞇ }
+11	{ ꞇ } - { c }
+11	{ ꝥ } - { þ }
+11	{ g } - { n }
+11	{  } - { COMBINING US ABOVE }
+11	{ ħ } - {  }
+11	{ COMBINING ACUTE ACCENT } - { COMBINING MACRON }
+11	{ o } - { v }
+11	{ ꞇ } - { a }
+11	{ ꞇ } - { SPACE }
+11	{ COMBINING LATIN SMALL LETTER E } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+11	{ SPACE } - { m }
+11	{ æ } - { e }
+11	{ V } - {  }
+11	{ g } - { G }
+11	{ COMBINING ACUTE ACCENT } - { ı }
+11	{  } - { þ }
+11	{ O } - { o }
+11	{ ø } - { e }
+11	{ ꜳ } - { a }
+10	{ SPACE } - { . }
+10	{ ꝺ } - { a }
+10	{ COMBINING ZIGZAG ABOVE } - { ı }
+10	{ Þ } - {  }
+10	{ ɴ } - { N }
+10	{ ꝉ } - { ƚ }
+10	{ þ } - { ꝥ }
+10	{ ı } - { v }
+10	{ COMBINING ZIGZAG ABOVE } - { SPACE }
+10	{ l } - { u }
+10	{ ꞇ } - { e }
+10	{ M } - { ᴍ }
+10	{ 0xe665 } - { p }
+10	{ COMBINING ACUTE ACCENT } - { SPACE }
+10	{ u } - { e }
+10	{ h } - { þ }
+10	{ ð } - { o }
+10	{ e } - { SPACE }
+10	{ r } - { u }
+10	{ E } - {  }
+10	{ l } - { r }
+10	{ ð } - { SPACE }
+10	{ o } - { ꝺ }
+10	{ 0xe7c7 } - { ħ }
+10	{ k } - { n }
+10	{ COMBINING LATIN SMALL LETTER R } - { a }
+10	{ þ } - { Þ }
+10	{ g } - { a }
+10	{  } - { ꝛ }
+10	{ COMBINING LOW LINE } - {  }
+10	{ h } - { H }
+9	{ 0xf084 } - { 0xf08a }
+9	{ ꝼ } - { ſ }
+9	{ ꞇ } - { t }
+9	{ u } - { ſ }
+9	{ 0xeeef } - {  }
+9	{ u } - { m }
+9	{ ħ } - { 0xf06b }
+9	{ x } - {  }
+9	{ SPACE } - { l }
+9	{ ſ } - { a }
+9	{ ɴ } - {  }
+9	{ o } - { u }
+9	{ 0xe735 } - { ꝥ }
+9	{ n } - { h }
+9	{ e } - { u }
+9	{ k } - { þ }
+9	{ o } - { O }
+9	{ a } - { i }
+9	{ k } - { a }
+9	{ l } - { SPACE }
+9	{ p } - { þ }
+9	{ ᴇ } - { E }
+9	{ v } - { ı }
+9	{  } - { s }
+9	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING LATIN SMALL LETTER E }
+9	{ COMBINING LATIN SMALL LETTER A } - { COMBINING ZIGZAG ABOVE }
+9	{ f } - { ꝼ }
+9	{  } - { z }
+9	{ ø } - { o }
+9	{ COMBINING OVERLINE } - { i }
+8	{ R } - { ʀ }
+8	{  } - { ⁊ }
+8	{ m } - { a }
+8	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+8	{ ı } - { . }
+8	{ ſ } - { n }
+8	{ y } - { ı }
+8	{ e } - { COMBINING ZIGZAG ABOVE }
+8	{ o } - { ð }
+8	{ r } - { y }
+8	{ ħ } - { h }
+8	{ r } - { ſ }
+8	{ ꞇ } - { u }
+8	{ ꞇ } - { l }
+8	{ l } - { ꝉ }
+8	{ v } - { n }
+8	{ r } - { l }
+8	{ m } - { ſ }
+8	{ SPACE } - { u }
+8	{ ꝼ } - { þ }
+8	{ ð } - { ꞇ }
+8	{ a } - { æ }
+8	{ r } - { c }
+8	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING ZIGZAG ABOVE }
+8	{  } - { æ }
+8	{ SPACE } - { g }
+8	{ ſ } - { SPACE }
+8	{ ꝺ } - { b }
+8	{ þ } - { . }
+8	{ 0xeee0 } - {  }
+8	{ ⁊ } - { e }
+8	{ COMBINING ACUTE ACCENT } - { n }
+8	{ ƚ } - {  }
+8	{ COMBINING LATIN SMALL LETTER O } - { COMBINING ZIGZAG ABOVE }
+8	{ 0xe499 } - { e }
+8	{ COMBINING LATIN SMALL LETTER I } - { COMBINING LATIN SMALL LETTER R }
+8	{ 0xefe1 } - { 0xefeb }
+8	{ c } - { t }
+8	{ I } - { i }
+8	{ l } - { t }
+8	{ l } - { i }
+7	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING LATIN SMALL LETTER R }
+7	{ h } - { g }
+7	{ p } - { ı }
+7	{ 0xf09a } - { ð }
+7	{ ꝼ } - { ꞇ }
+7	{ COMBINING ACUTE ACCENT } - { ȷ }
+7	{ v } - { b }
+7	{ ꝁ } - {  }
+7	{ O } - { G }
+7	{ 0xf02f } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+7	{ v } - { ſ }
+7	{ COMBINING LATIN SMALL LETTER A } - { COMBINING LATIN SMALL LETTER O }
+7	{ u } - { l }
+7	{ e } - { ꞇ }
+7	{ g } - { s }
+7	{ COMBINING MACRON } - { COMBINING ZIGZAG ABOVE }
+7	{ ꝺ } - { l }
+7	{ ꝺ } - { ꞇ }
+7	{ þ } - { ſ }
+7	{ ʀ } - {  }
+7	{ COMBINING LATIN SMALL LETTER E } - {  }
+7	{ c } - { ſ }
+7	{ ꞇ } - { g }
+7	{ . } - { e }
+7	{ COMBINING LATIN SMALL LETTER O } - { COMBINING LATIN SMALL LETTER R }
+7	{ r } - { g }
+7	{ ꝥ } - { 0xf084 }
+7	{ ı } - { e }
+7	{ r } - { m }
+7	{ ı } - { g }
+7	{ SPACE } - { COMBINING ZIGZAG ABOVE }
+7	{ a } - { ꞇ }
+7	{ a } - { ⁊ }
+7	{ l } - { a }
+7	{ l } - { g }
+7	{ z } - { r }
+7	{ n } - { g }
+7	{ ⁊ } - { . }
+7	{ COMBINING ZIGZAG ABOVE } - { COMBINING US ABOVE }
+7	{ 0xef22 } - { n }
+7	{ r } - { æ }
+7	{ 0xeee9 } - {  }
+7	{ 0xeee0 } - { a }
+7	{ y } - { u }
+7	{ ſ } - { h }
+7	{ ꝼ } - { ꝩ }
+7	{ ƞ } - { n }
+7	{ COMBINING OVERLINE } - { a }
+7	{ COMBINING LATIN SMALL LETTER I } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+7	{ ꝩ } - { y }
+7	{ v } - { m }
+7	{ 0xefeb } - { a }
+7	{ u } - { U }
+7	{ 0xefeb } - { ꜳ }
+6	{ 0xf02f } - { COMBINING LATIN SMALL LETTER O }
+6	{ g } - { SPACE }
+6	{ a } - { ꝺ }
+6	{ SPACE } - { ꝼ }
+6	{ SPACE } - { v }
+6	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING LATIN SMALL LETTER O }
+6	{ r } - { o }
+6	{ ꞇ } - { o }
+6	{ COMBINING LATIN SMALL LETTER O } - { 0xf02f }
+6	{ SPACE } - { o }
+6	{ v } - { SPACE }
+6	{ v } - { a }
+6	{ S } - { ⁊ }
+6	{ ⁊ } - { ı }
+6	{ COMBINING LATIN SMALL LETTER A } - {  }
+6	{ h } - { ħ }
+6	{ m } - { v }
+6	{  } - { ħ }
+6	{ ꝼ } - { e }
+6	{  } - { G }
+6	{ h } - { n }
+6	{ 0xe5b8 } - {  }
+6	{  } - { COMBINING LATIN SMALL LETTER A }
+6	{ 0xf0cf } - { COMBINING LATIN LETTER SMALL CAPITAL R }
+6	{ v } - { ꝼ }
+6	{ 0xf06e } - { 0xf069 }
+6	{ y } - { ꝩ }
+6	{ 0xf1ac } - {  }
+6	{ u } - { r }
+6	{ SPACE } - { ⸍ }
+6	{ u } - { SPACE }
+6	{ i } - { COMBINING ZIGZAG ABOVE }
+6	{ r } - { x }
+6	{ b } - { v }
+6	{ y } - { v }
+6	{ h } - { ſ }
+6	{ e } - { i }
+6	{ COMBINING MACRON } - { ı }
+6	{ ſ } - { e }
+6	{ COMBINING ACUTE ACCENT } - { ꞇ }
+6	{  } - { p }
+6	{ g } - { h }
+6	{ 0xe5dc } - {  }
+6	{ l } - { þ }
+6	{ l } - { o }
+6	{ COMBINING DOT ABOVE } - { COMBINING ZIGZAG ABOVE }
+6	{ 0xeee9 } - { h }
+6	{ z } - { a }
+6	{ SPACE } - { e }
+6	{ ꝩ } - { ꝼ }
+6	{ COMBINING UR ABOVE } - {  }
+6	{ ƞ } - { h }
+6	{ t } - { n }
+6	{ m } - { COMBINING OVERLINE }
+6	{ COMBINING ACUTE ACCENT } - { COMBINING OVERLINE }
+6	{ o } - { 0xe7d3 }
+5	{ 0xf00b } - {  }
+5	{ e } - { ð }
+5	{ ð } - { a }
+5	{ ꜳ } - {  }
+5	{ ꞇ } - { v }
+5	{ ɢ } - {  }
+5	{ v } - { G }
+5	{ COMBINING ZIGZAG ABOVE } - { a }
+5	{ N } - {  }
+5	{ 0xe7c7 } - {  }
+5	{ ꝼ } - { n }
+5	{ 0xf0bd } - { 0xf069 }
+5	{ COMBINING LATIN SMALL LETTER Z } - { COMBINING ZIGZAG ABOVE }
+5	{ 0xf06b } - { 0xf069 }
+5	{ 0xf06b } - { 0xf064 }
+5	{ 0xf0d5 } - { g }
+5	{ e } - { ꝼ }
+5	{  } - { ꝉ }
+5	{ þ } - { p }
+5	{ a } - { m }
+5	{ þ } - { k }
+5	{ ⁊ } - { ſ }
+5	{ p } - { v }
+5	{ k } - { ꝁ }
+5	{ k } - { 0xf07a }
+5	{ . } - { r }
+5	{ n } - { ð }
+5	{ ʀ } - { k }
+5	{ v } - { . }
+5	{ 0xf02f } - { ı }
+5	{ b } - { G }
+5	{ n } - { p }
+5	{ 0xf07a } - { k }
+5	{ 0xe40a } - { a }
+5	{ o } - { . }
+5	{  } - { A }
+5	{ . } - { s }
+5	{ ꝁ } - { k }
+5	{ 0xe568 } - { k }
+5	{ o } - { 0xf0d7 }
+5	{ o } - { SPACE }
+5	{ ȷ } - {  }
+5	{ SPACE } - { i }
+5	{ æ } - { y }
+5	{ ꝼ } - { ı }
+5	{ COMBINING LATIN SMALL LETTER V } - { 0xf02f }
+5	{ 0xf06f } - { 0xf069 }
+5	{ e } - { ø }
+5	{ v } - { h }
+5	{ a } - { c }
+5	{ a } - { l }
+5	{ p } - { o }
+5	{ 0xe735 } - {  }
+5	{ ꝼ } - { a }
+5	{ ð } - { v }
+5	{ ð } - { r }
+5	{ ꝁ } - { 0xe7c8 }
+5	{ i } - { SPACE }
+5	{ ſ } - { g }
+5	{ 0xef22 } - { k }
+5	{ ſ } - { i }
+5	{ o } - { æ }
+5	{ ꞇ } - { ð }
+5	{ h } - { 0xeee9 }
+5	{ b } - { k }
+5	{ ⸌ } - { ſ }
+5	{ æ } - { o }
+5	{ ð } - { ſ }
+5	{ p } - { g }
+5	{ n } - { 0xe5dc }
+5	{ a } - { s }
+5	{ ʀ } - { ꝼ }
+5	{ u } - { y }
+5	{ ꞇ } - { ꝼ }
+5	{ l } - { ð }
+5	{  } - { E }
+5	{ COMBINING OVERLINE } - { SPACE }
+5	{ SPACE } - { c }
+5	{ COMBINING OVERLINE } - { ı }
+5	{ COMBINING LATIN SMALL LETTER I } - { COMBINING LATIN SMALL LETTER O }
+5	{  } - { ꝩ }
+5	{ ø } - { 0xe655 }
+5	{ 0xe657 } - { 0xe655 }
+5	{  } - { - }
+5	{ t } - { c }
+5	{ m } - { M }
+5	{ n } - { t }
+5	{ i } - { I }
+5	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+5	{ i } - { ꝛ }
+5	{ r } - { R }
+5	{ ſ } - { S }
+5	{ ; } - {  }
+4	{ ħ } - { ſ }
+4	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { COMBINING LATIN SMALL LETTER R }
+4	{ c } - { ı }
+4	{ v } - { ⁊ }
+4	{ g } - { ı }
+4	{ e } - { . }
+4	{ b } - { 0xf05f }
+4	{ ſ } - { . }
+4	{ SPACE } - { ð }
+4	{ COMBINING LATIN SMALL LETTER V } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+4	{ 0xf084 } - {  }
+4	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN SMALL LETTER A }
+4	{ 0xf0ce } - {  }
+4	{ k } - { ı }
+4	{ COMBINING LATIN SMALL LETTER Z } - {  }
+4	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { 0xf1c2 }
+4	{  } - { y }
+4	{ ſ } - { þ }
+4	{ a } - { ꝼ }
+4	{ 0xf05f } - { b }
+4	{ . } - { þ }
+4	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { 0xf02f }
+4	{ i } - { ɴ }
+4	{ v } - { 0xe74d }
+4	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN SMALL LETTER O }
+4	{ ꞇ } - { 0xf094 }
+4	{ o } - { ɢ }
+4	{  } - { 0xf1ac }
+4	{ k } - { r }
+4	{ m } - { ꞇ }
+4	{ þ } - { ı }
+4	{ n } - { . }
+4	{ SPACE } - { æ }
+4	{ a } - { z }
+4	{ v } - { ꞇ }
+4	{ 0xe735 } - { þ }
+4	{ h } - { v }
+4	{ ꝼ } - { ⁊ }
+4	{ COMBINING MACRON } - { ꞇ }
+4	{ COMBINING MACRON } - { r }
+4	{ a } - { . }
+4	{ 0xf067 } - { ħ }
+4	{ k } - { 0xef22 }
+4	{ x } - { SPACE }
+4	{ SPACE } - { k }
+4	{ ð } - { 0xf09d }
+4	{ 0xf0b9 } - { ꝁ }
+4	{ 0xf087 } - { ꝥ }
+4	{ ꝺ } - { 0xf09a }
+4	{ L } - {  }
+4	{ 0xef22 } - {  }
+4	{ . } - { h }
+4	{ 0xf05f } - { ƀ }
+4	{ ſ } - { r }
+4	{ u } - { ꞇ }
+4	{ þ } - { 0xf08a }
+4	{ J } - { ſ }
+4	{ ꝼ } - { SPACE }
+4	{ i } - { . }
+4	{ l } - { e }
+4	{ S } - { G }
+4	{ h } - { l }
+4	{ 0xf06f } - { ħ }
+4	{ ð } - { 0xf09a }
+4	{ . } - { SPACE }
+4	{ COMBINING LATIN SMALL LETTER R } - { COMBINING DOT ABOVE }
+4	{ 0xf07a } - { ꝁ }
+4	{ 0xf084 } - { 0xf087 }
+4	{ b } - { ꝺ }
+4	{ 0xf064 } - { 0xf069 }
+4	{ ꝺ } - { n }
+4	{ Ꝼ } - {  }
+4	{ COMBINING ZIGZAG ABOVE } - { o }
+4	{ ı } - { ꝼ }
+4	{ ı } - { 0xf02f }
+4	{  } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+4	{ ⁊ } - { a }
+4	{ . } - { ⁊ }
+4	{ COMBINING LATIN LETTER SMALL CAPITAL M } - { COMBINING ZIGZAG ABOVE }
+4	{ ð } - { g }
+4	{ s } - { a }
+4	{ þ } - { m }
+4	{ a } - { v }
+4	{ COMBINING LATIN SMALL LETTER O } - { COMBINING LATIN SMALL LETTER V }
+4	{ COMBINING LATIN SMALL LETTER E } - { COMBINING LATIN SMALL LETTER O }
+4	{ COMBINING ACUTE ACCENT } - { COMBINING ZIGZAG ABOVE }
+4	{ 0xf08a } - { ꝥ }
+4	{ n } - { i }
+4	{ ꝺ } - { 0xf09d }
+4	{ ſ } - { J }
+4	{  } - { x }
+4	{ ꝺ } - { c }
+4	{ 0xe74d } - {  }
+4	{ g } - { e }
+4	{  } - { COMBINING LATIN LETTER SMALL CAPITAL R }
+4	{ COMBINING ZIGZAG ABOVE } - { . }
+4	{ ƚ } - { l }
+4	{ v } - { ꝺ }
+4	{ &#34; } - {  }
+4	{ k } - { b }
+4	{ COMBINING ACUTE ACCENT } - { l }
+4	{ i } - { v }
+4	{ a } - { ø }
+4	{ c } - { r }
+4	{ g } - { ſ }
+4	{ m } - { e }
+4	{ ꝺ } - { v }
+4	{ ꝼ } - { ʀ }
+4	{ c } - { ꝛ }
+4	{ COMBINING LATIN SMALL LETTER I } - { 0xf02f }
+4	{ COMBINING US ABOVE } - { COMBINING LATIN SMALL LETTER O }
+4	{ COMBINING LATIN LETTER SMALL CAPITAL M } - { COMBINING US ABOVE }
+4	{ ⟩ } - {  }
+4	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN SMALL LETTER I }
+4	{ ꝛ } - { e }
+4	{ ð } - { COMBINING OVERLINE }
+4	{ o } - { r }
+4	{ ꝼ } - { h }
+4	{ COMBINING OVERLINE } - { e }
+4	{ a } - { COMBINING LATIN SMALL LETTER R }
+4	{ a } - { A }
+4	{ a } - { 0xefeb }
+4	{ ꝛ } - { i }
+4	{ e } - { t }
+4	{ A } - { a }
+4	{ COMBINING LATIN SMALL LETTER U } - { COMBINING LATIN SMALL LETTER R }
+4	{ COMBINING LATIN SMALL LETTER I } - { i }
+4	{ H } - { h }
+4	{ COMBINING OVERLINE } - { n }
+3	{ i } - { q }
+3	{ 0xf069 } - { 0xf06b }
+3	{ 0xf08a } - { ꝼ }
+3	{ 0xf08a } - { 0xf084 }
+3	{ q } - {  }
+3	{ ꝼ } - { m }
+3	{ COMBINING MACRON } - { n }
+3	{ ꝼ } - { x }
+3	{ ꞇ } - { ꝺ }
+3	{ ꞇ } - { . }
+3	{ k } - { ʀ }
+3	{ 0xf077 } - { k }
+3	{ n } - { y }
+3	{ COMBINING ZIGZAG ABOVE } - { 0xf1c2 }
+3	{ p } - { SPACE }
+3	{ y } - { x }
+3	{ ſ } - { m }
+3	{ 0xe5b8 } - { ı }
+3	{ g } - { u }
+3	{ . } - { u }
+3	{ ħ } - { 0xf069 }
+3	{ 0xf084 } - { ꝥ }
+3	{ 0xf06e } - { 0xe7c7 }
+3	{ 0xf09a } - { ꝺ }
+3	{ COMBINING MACRON } - { COMBINING ACUTE ACCENT }
+3	{ ꞇ } - { ⸍ }
+3	{ 0xf064 } - { 0xf06b }
+3	{ 0xf0b9 } - { k }
+3	{ ɢ } - { o }
+3	{ 0xf097 } - { ꝺ }
+3	{ ꝺ } - { SPACE }
+3	{ ı } - { y }
+3	{ 0xe553 } - { ȷ }
+3	{ ſ } - { o }
+3	{ k } - { u }
+3	{ þ } - { 0xf084 }
+3	{ a } - { y }
+3	{ 0xef22 } - { ſ }
+3	{ SPACE } - { h }
+3	{ n } - { k }
+3	{ a } - { 0xf1c2 }
+3	{ k } - { SPACE }
+3	{ y } - { o }
+3	{ ꝼ } - { v }
+3	{ m } - { 0xe5b8 }
+3	{ G } - { b }
+3	{ e } - { z }
+3	{ p } - { r }
+3	{ E } - { ᴇ }
+3	{ v } - { g }
+3	{ 0xf09d } - { ð }
+3	{ M } - {  }
+3	{ m } - { h }
+3	{ COMBINING LATIN SMALL LETTER O } - { COMBINING LATIN SMALL LETTER A }
+3	{ 0xf06e } - { ħ }
+3	{ m } - { u }
+3	{  } - { 0xf0d7 }
+3	{ ꝥ } - { ꝼ }
+3	{ 0xf0be } - { ꝁ }
+3	{ ı } - { COMBINING ZIGZAG ABOVE }
+3	{ n } - { þ }
+3	{ 0xf09d } - { 0xf09a }
+3	{ 0xf09d } - { ꝺ }
+3	{ SPACE } - { G }
+3	{ 0xf0d7 } - { ð }
+3	{ ꞇ } - { s }
+3	{ ⁊ } - { ꝼ }
+3	{ ꝥ } - { 0xf08a }
+3	{ COMBINING MACRON } - { l }
+3	{ i } - { l }
+3	{ æ } - { r }
+3	{ 0xf07a } - { 0xf077 }
+3	{ . } - { n }
+3	{ ʀ } - { ꞇ }
+3	{ k } - { g }
+3	{ e } - { ⁊ }
+3	{ ⁊ } - { o }
+3	{ z } - { SPACE }
+3	{ 0xf0d7 } - {  }
+3	{ 0xf08b } - {  }
+3	{ m } - { r }
+3	{ ⁊ } - { g }
+3	{ COMBINING LATIN LETTER SMALL CAPITAL M } - {  }
+3	{ p } - { u }
+3	{ ꝥ } - { 0xf087 }
+3	{ ſ } - { y }
+3	{ a } - { k }
+3	{ COMBINING LATIN SMALL LETTER R } - { 0xf1c2 }
+3	{ g } - { ð }
+3	{ þ } - { ꝼ }
+3	{ G } - { v }
+3	{ 0xf0af } - { 0xf09d }
+3	{ ɢ } - { ꞇ }
+3	{ 0xf077 } - { ꝁ }
+3	{ g } - { ꞇ }
+3	{ r } - { p }
+3	{ h } - { a }
+3	{ e } - { l }
+3	{ COMBINING MACRON } - { SPACE }
+3	{ e } - { h }
+3	{ ɢ } - { s }
+3	{ h } - { e }
+3	{ i } - { 0xe553 }
+3	{ l } - { J }
+3	{ . } - { g }
+3	{ b } - { ð }
+3	{ R } - {  }
+3	{ n } - { ɴ }
+3	{ k } - { ꝼ }
+3	{ e } - { þ }
+3	{ ⁊ } - { v }
+3	{ 0xf097 } - { 0xf09d }
+3	{ . } - { ⸍ }
+3	{ COMBINING MACRON } - { m }
+3	{ 0xf09a } - { 0xf09d }
+3	{ ꝥ } - { ħ }
+3	{ COMBINING LATIN SMALL LETTER R } - { ð }
+3	{ b } - { a }
+3	{ z } - { s }
+3	{ COMBINING ACUTE ACCENT } - { r }
+3	{  } - { b }
+3	{ S } - { E }
+3	{ o } - { y }
+3	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+3	{ l } - { p }
+3	{ ꝼ } - { u }
+3	{ ı } - { ð }
+3	{ n } - { v }
+3	{ . } - { ꞇ }
+3	{ ı } - { ꝥ }
+3	{ COMBINING LATIN SMALL LETTER O } - { . }
+3	{ g } - { . }
+3	{ o } - { ſ }
+3	{ H } - {  }
+3	{ o } - { b }
+3	{ 0xf02f } - { COMBINING LATIN SMALL LETTER A }
+3	{ S } - { B }
+3	{ . } - { ð }
+3	{ c } - { a }
+3	{ y } - { ꝼ }
+3	{ l } - { ꝼ }
+3	{ SPACE } - { ɢ }
+3	{ COMBINING ZIGZAG ABOVE } - { COMBINING MACRON }
+3	{ F } - { E }
+3	{ a } - { r }
+3	{ g } - { i }
+3	{ þ } - { v }
+3	{ ð } - { k }
+3	{ o } - { p }
+3	{ c } - { SPACE }
+3	{ a } - { 0xeee0 }
+3	{ ⸌ } - { r }
+3	{ ꝺ } - { k }
+3	{ o } - { ꝼ }
+3	{ ð } - { n }
+3	{ ſ } - { z }
+3	{ SPACE } - { COMBINING OVERLINE }
+3	{ k } - { ꞇ }
+3	{ l } - { . }
+3	{ ſ } - { c }
+3	{ o } - { n }
+3	{ a } - { ꝛ }
+3	{ n } - { ƞ }
+3	{ COMBINING LATIN SMALL LETTER I } - { COMBINING OVERLINE }
+3	{ s } - { ɢ }
+3	{ o } - { þ }
+3	{ e } - { COMBINING OVERLINE }
+3	{ ꝩ } - { þ }
+3	{ s } - { SPACE }
+3	{ ꝩ } - { . }
+3	{ m } - { l }
+3	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING LATIN SMALL LETTER I }
+3	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING UR ABOVE }
+3	{ 0xe655 } - { ø }
+3	{ SPACE } - { ꝺ }
+3	{ 0xeee4 } - {  }
+3	{ COMBINING LATIN LETTER SMALL CAPITAL M } - { COMBINING LATIN SMALL LETTER O }
+3	{ ı } - { ꝛ }
+3	{ - } - { SPACE }
+3	{ COMBINING LATIN SMALL LETTER O } - { COMBINING LATIN SMALL LETTER I }
+3	{ ƞ } - {  }
+3	{ ꝩ } - { p }
+3	{  } - { COMBINING LOW LINE }
+3	{ COMBINING UR ABOVE } - { COMBINING US ABOVE }
+3	{ COMBINING UR ABOVE } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+3	{ COMBINING US ABOVE } - { COMBINING ZIGZAG ABOVE }
+3	{ ꝛ } - { x }
+3	{ COMBINING OVERLINE } - { COMBINING LATIN SMALL LETTER I }
+3	{ e } - { ꝩ }
+3	{ 0 } - { e }
+3	{ u } - { t }
+3	{ ſ } - { t }
+3	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN SMALL LETTER I }
+3	{ D } - { O }
+3	{ k } - { K }
+3	{ ⁊ } - { i }
+3	{ COMBINING DOT ABOVE } - { i }
+3	{ O } - { ⁊ }
+3	{ f } - {  }
+3	{ B } - { b }
+3	{ b } - { B }
+3	{ ꝼ } - { k }
+3	{ ! } - {  }
+3	{ A } - {  }
+3	{ a } - { ꜳ }
+2	{ ⸌ } - { COMBINING ZIGZAG ABOVE }
+2	{ ꞇ } - { COMBINING OVERLINE }
+2	{ k } - { 0xe568 }
+2	{ COMBINING LATIN SMALL LETTER V } - {  }
+2	{ 0xe568 } - { ꝁ }
+2	{ ꝥ } - { g }
+2	{ COMBINING DOT ABOVE } - { SPACE }
+2	{ ɢ } - { ſ }
+2	{ G } - { . }
+2	{ ⁊ } - { s }
+2	{ v } - { ꝥ }
+2	{ þ } - { g }
+2	{ 0xf06f } - { h }
+2	{ a } - { ꝥ }
+2	{ 0xf0aa } - { ð }
+2	{ ı } - { ꝺ }
+2	{ i } - { ꝉ }
+2	{ a } - { ꜹ }
+2	{ . } - { k }
+2	{ 0xf05f } - { ꝥ }
+2	{ . } - { ⸌ }
+2	{ SPACE } - { ⸌ }
+2	{ SPACE } - { 0xf02f }
+2	{ ſ } - { ⁊ }
+2	{ ħ } - { g }
+2	{ SPACE } - { ɴ }
+2	{ ꝉ } - { r }
+2	{ ꝼ } - { s }
+2	{ g } - { 0xf0d5 }
+2	{ 0xf069 } - { 0xe7c7 }
+2	{ 0xeeef } - { ı }
+2	{ SPACE } - { 0xf1c2 }
+2	{ . } - { o }
+2	{ þ } - { r }
+2	{ k } - { R }
+2	{ ᴍ } - {  }
+2	{ ⸍ } - { ⸌ }
+2	{ 0xf02f } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+2	{ . } - { m }
+2	{ h } - { 0xf06b }
+2	{ COMBINING LATIN SMALL LETTER A } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+2	{ ꝁ } - { ħ }
+2	{ 0xf08b } - { ꝥ }
+2	{ ſ } - { ð }
+2	{ b } - { r }
+2	{ COMBINING LATIN SMALL LETTER Z } - { COMBINING LATIN SMALL LETTER A }
+2	{ ħ } - { 0xe7c8 }
+2	{ ſ } - { 0xe7c7 }
+2	{ m } - { ꝼ }
+2	{ SPACE } - { O }
+2	{ 0xf1c2 } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+2	{ ð } - { z }
+2	{ a } - { þ }
+2	{ ħ } - { ⁊ }
+2	{ 0xf087 } - {  }
+2	{ ð } - { u }
+2	{ - } - { g }
+2	{ g } - { v }
+2	{ . } - { i }
+2	{ h } - { m }
+2	{ y } - { a }
+2	{ ɢ } - { . }
+2	{ COMBINING LATIN SMALL LETTER Z } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+2	{ v } - { 0xe73a }
+2	{ COMBINING LATIN SMALL LETTER A } - { 0xf02f }
+2	{ COMBINING LATIN SMALL LETTER Z } - { 0xf0ce }
+2	{ 0xf06b } - { 0xe7c7 }
+2	{ æ } - { ꝼ }
+2	{ ꝺ } - { ꝼ }
+2	{ 0xf06e } - { h }
+2	{ . } - { 0xf069 }
+2	{ o } - { m }
+2	{ 0xeee0 } - { . }
+2	{ 0xf0b9 } - { SPACE }
+2	{  } - { 0xf087 }
+2	{ 0xefe7 } - { ꜹ }
+2	{ v } - { þ }
+2	{ þ } - { n }
+2	{ y } - { p }
+2	{ ꝥ } - { h }
+2	{ ꝉ } - { l }
+2	{ . } - { ħ }
+2	{ ȷ } - { 0xe553 }
+2	{ G } - { g }
+2	{ 0xe74d } - { ı }
+2	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN LETTER SMALL CAPITAL N }
+2	{ COMBINING ACUTE ACCENT } - { g }
+2	{ 0xf067 } - { . }
+2	{ COMBINING LATIN LETTER SMALL CAPITAL R } - {  }
+2	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { 0xf1c2 }
+2	{ 0xf1ac } - { . }
+2	{  } - { ꝥ }
+2	{ . } - { ſ }
+2	{ 0xf087 } - { 0xf084 }
+2	{ z } - { n }
+2	{ h } - { ⁊ }
+2	{ g } - { S }
+2	{ 0xf00b } - { COMBINING ZIGZAG ABOVE }
+2	{ . } - { G }
+2	{ ꝺ } - { 0xf0d7 }
+2	{ SPACE } - { ꝁ }
+2	{ h } - { ı }
+2	{ ħ } - { ꝥ }
+2	{ COMBINING LATIN SMALL LETTER O } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+2	{ ɴ } - { ⁊ }
+2	{ a } - { ð }
+2	{ COMBINING ACUTE ACCENT } - { i }
+2	{ a } - { h }
+2	{ p } - { l }
+2	{ u } - { COMBINING MACRON }
+2	{ ꝼ } - { . }
+2	{ 0xf067 } - { 0xf06b }
+2	{ u } - { p }
+2	{ ᴍ } - { m }
+2	{ s } - { g }
+2	{ k } - { 0xe7c8 }
+2	{ h } - { 0xe7c7 }
+2	{ ꞇ } - { COMBINING ZIGZAG ABOVE }
+2	{ , } - {  }
+2	{ 0xf08a } - { þ }
+2	{ Ꝼ } - { ꝼ }
+2	{ z } - { g }
+2	{ n } - { c }
+2	{ 0xf06f } - {  }
+2	{ 0xf1c2 } - { COMBINING ZIGZAG ABOVE }
+2	{ 0xf08b } - { 0xf08a }
+2	{ 0xf09d } - { 0xf097 }
+2	{ x } - { z }
+2	{ g } - { ꝺ }
+2	{ ⋅ } - { s }
+2	{ n } - { l }
+2	{ COMBINING LATIN SMALL LETTER E } - { 0xf02f }
+2	{ g } - { q }
+2	{ COMBINING LATIN SMALL LETTER A } - { 0xf1c2 }
+2	{  } - { 0xeeec }
+2	{ COMBINING LATIN SMALL LETTER V } - { COMBINING LATIN SMALL LETTER O }
+2	{ 0xf05e } - { 0xf056 }
+2	{ N } - { . }
+2	{ q } - { ı }
+2	{ e } - { n }
+2	{ k } - { ſ }
+2	{ 0xe5b8 } - { a }
+2	{ ꞇ } - { ꝥ }
+2	{ u } - { g }
+2	{ ð } - { l }
+2	{ ƀ } - { ħ }
+2	{ q } - { . }
+2	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { . }
+2	{ 0xf08a } - {  }
+2	{ COMBINING LATIN SMALL LETTER R } - { r }
+2	{ 0xe74d } - { a }
+2	{ ꝥ } - { ſ }
+2	{ . } - { ꝼ }
+2	{ ꝼ } - { ꝥ }
+2	{ SPACE } - { s }
+2	{ m } - { ᴍ }
+2	{ ꝺ } - { G }
+2	{ 0xe5b8 } - { i }
+2	{ 0xeee7 } - {  }
+2	{ ꞇ } - { Ꞇ }
+2	{ 0xf077 } - { 0xf07a }
+2	{ I } - { ſ }
+2	{ x } - { y }
+2	{ ꝺ } - { e }
+2	{ G } - { ſ }
+2	{ 0xf09a } - {  }
+2	{ 0xeee0 } - { ɴ }
+2	{ b } - { ſ }
+2	{ 0xeee6 } - {  }
+2	{ 0xf0be } - { 0xf07a }
+2	{ N } - { J }
+2	{ 0xf064 } - { ħ }
+2	{ J } - { þ }
+2	{ 0xf02f } - { n }
+2	{ ı } - { 0xe5b8 }
+2	{ ꝼ } - { l }
+2	{ ſ } - { ꝼ }
+2	{ ꝉ } - { ı }
+2	{ þ } - { 0xe735 }
+2	{ ꞇ } - { ɢ }
+2	{ ɢ } - { ð }
+2	{ 0xeeec } - { k }
+2	{ i } - { e }
+2	{ ⸌ } - { ꞇ }
+2	{ l } - { v }
+2	{ SPACE } - { z }
+2	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN SMALL LETTER Z }
+2	{ 0xe5dc } - { u }
+2	{ COMBINING ZIGZAG ABOVE } - { n }
+2	{  } - { 0xe7c7 }
+2	{ ʀ } - { a }
+2	{ ı } - { 0xf1ac }
+2	{ ꝼ } - { ⸌ }
+2	{ . } - { COMBINING ZIGZAG ABOVE }
+2	{ ꝝ } - { x }
+2	{  } - { J }
+2	{ h } - { 0xf064 }
+2	{ SPACE } - { COMBINING ACUTE ACCENT }
+2	{ 0xf02f } - { o }
+2	{ 0xe74d } - { ſ }
+2	{ ⸍ } - { . }
+2	{ æ } - { ı }
+2	{ n } - { z }
+2	{ ʀ } - { n }
+2	{ a } - { 0xe655 }
+2	{  } - { 0xf07a }
+2	{ ꝥ } - { ꝁ }
+2	{ 0xe425 } - {  }
+2	{ 0xeeec } - { 0xf07a }
+2	{ v } - { l }
+2	{ SPACE } - { þ }
+2	{ 0xf0d7 } - { ꝺ }
+2	{ COMBINING DOT ABOVE } - { COMBINING LATIN SMALL LETTER R }
+2	{ ſ } - { u }
+2	{ F } - {  }
+2	{ ꝼ } - { y }
+2	{ COMBINING ZIGZAG ABOVE } - { ꝺ }
+2	{ ⸌ } - { COMBINING MACRON }
+2	{ COMBINING LATIN SMALL LETTER R } - { SPACE }
+2	{ SPACE } - { ⁊ }
+2	{ v } - { e }
+2	{ r } - { B }
+2	{ b } - { ƀ }
+2	{ COMBINING ACUTE ACCENT } - { COMBINING US ABOVE }
+2	{  } - { COMBINING LATIN SMALL LETTER Z }
+2	{ k } - { 0xf077 }
+2	{ S } - { SPACE }
+2	{ 0xe7c8 } - { 0xe7c7 }
+2	{ 0xf087 } - { þ }
+2	{ COMBINING MACRON } - { 0xe5dc }
+2	{ o } - { c }
+2	{ l } - { ƚ }
+2	{ ꜹ } - { a }
+2	{ i } - { 0xe5b8 }
+2	{  } - { ɴ }
+2	{ r } - { . }
+2	{ COMBINING OVERLINE } - { COMBINING MACRON }
+2	{ . } - { z }
+2	{ &gt; } - {  }
+2	{ ð } - { . }
+2	{ 0xf1ac } - { a }
+2	{ ꝁ } - { ꝥ }
+2	{ ꞇ } - { k }
+2	{ y } - { e }
+2	{ n } - { o }
+2	{ - } - { . }
+2	{ æ } - { z }
+2	{ ı } - { ȷ }
+2	{ COMBINING ACUTE ACCENT } - { p }
+2	{ l } - { c }
+2	{ g } - { r }
+2	{ 0xe7d3 } - { ð }
+2	{ l } - { m }
+2	{ n } - { ꝼ }
+2	{ þ } - { ꞇ }
+2	{ r } - { ð }
+2	{ z } - { ⁊ }
+2	{ o } - { ꞇ }
+2	{ ꞇ } - { m }
+2	{ ꝩ } - { h }
+2	{ g } - { c }
+2	{ u } - { k }
+2	{ p } - { e }
+2	{ ꝩ } - { ſ }
+2	{ a } - { ʀ }
+2	{ COMBINING OVERLINE } - { ð }
+2	{ a } - { COMBINING OVERLINE }
+2	{ c } - { l }
+2	{ n } - { ⸌ }
+2	{ k } - { COMBINING OVERLINE }
+2	{ ø } - {  }
+2	{ ꝩ } - { ı }
+2	{ Ꝼ } - { þ }
+2	{ ꝇ } - { l }
+2	{ COMBINING LATIN SMALL LETTER I } - { þ }
+2	{ COMBINING LATIN SMALL LETTER R } - { COMBINING OVERLINE }
+2	{ g } - { COMBINING OVERLINE }
+2	{ 0xeee4 } - { ꝺ }
+2	{ þ } - { ꝩ }
+2	{ ⸌ } - { h }
+2	{ 0xe655 } - { e }
+2	{ ʀ } - { r }
+2	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+2	{  } - { COMBINING UR ABOVE }
+2	{ 0xeee4 } - { O }
+2	{ COMBINING OVERLINE } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+2	{ COMBINING LATIN SMALL LETTER O } - { COMBINING OVERLINE }
+2	{ Þ } - { P }
+2	{ ⟨ } - {  }
+2	{ 0xe655 } - { o }
+2	{ COMBINING OVERLINE } - { r }
+2	{ o } - { COMBINING OVERLINE }
+2	{ ꝛ } - { SPACE }
+2	{ ı } - { þ }
+2	{ COMBINING LATIN SMALL LETTER O } - { COMBINING US ABOVE }
+2	{ ı } - { ⸌ }
+2	{ ꝛ } - { o }
+2	{ e } - { 0xe499 }
+2	{ 0 } - { y }
+2	{ ꝛ } - { z }
+2	{ COMBINING UR ABOVE } - { COMBINING ZIGZAG ABOVE }
+2	{ e } - { s }
+2	{ ꝺ } - { r }
+2	{ COMBINING OVERLINE } - { ſ }
+2	{ u } - { ð }
+2	{  } - { COMBINING LATIN SMALL LETTER E }
+2	{ p } - { ꝩ }
+2	{ SPACE } - { p }
+2	{ ð } - { c }
+2	{ ꝺ } - { . }
+2	{ ꝛ } - { ı }
+2	{ ſ } - { v }
+2	{ 0 } - { a }
+2	{ 0 } - { ı }
+2	{ y } - { r }
+2	{ COMBINING OVERLINE } - { COMBINING LATIN SMALL LETTER R }
+2	{ O } - { E }
+2	{ ꝓ } - { p }
+2	{ v } - { ꜹ }
+2	{ n } - { e }
+2	{ 0 } - {  }
+2	{ ꝺ } - { i }
+2	{ COMBINING DOT ABOVE } - { COMBINING OVERLINE }
+2	{ æ } - { x }
+2	{ 0xe715 } - { u }
+2	{ 0xef23 } - { s }
+2	{ j } - { i }
+2	{ O } - { e }
+2	{ A } - { 0xeee0 }
+2	{ COMBINING OVERLINE } - { COMBINING ACUTE ACCENT }
+2	{ t } - { SPACE }
+2	{ COMBINING OGONEK } - { i }
+2	{ t } - { ſ }
+2	{ i } - { COMBINING OVERLINE }
+2	{ n } - { H }
+2	{ ꝛ } - { COMBINING OVERLINE }
+2	{ N } - { n }
+2	{ u } - { ꝺ }
+2	{ COMBINING ACUTE ACCENT } - { COMBINING DOT ABOVE }
+2	{ ſ } - { æ }
+2	{ u } - { þ }
+2	{ t } - { ð }
+2	{  } - { O }
+2	{ g } - { ꝼ }
+2	{ COMBINING OVERLINE } - { t }
+2	{ þ } - { l }
+2	{ p } - { t }
+2	{ n } - { COMBINING OVERLINE }
+2	{ d } - {  }
+2	{ ꝺ } - { t }
+2	{ s } - { e }
+2	{ t } - { k }
+2	{ u } - { b }
+2	{ ð } - { t }
+2	{ COMBINING OGONEK } - { r }
+2	{ q } - { o }
+2	{ i } - { ⁊ }
+2	{ 0xf1ac } - { e }
+2	{ T } - { t }
+2	{ 0xefe1 } - { ꜳ }
+2	{ æ } - { ꜳ }
+2	{ d } - { ꝺ }
+2	{ v } - { i }
+2	{ 0xe4eb } - { e }
+2	{ X } - { x }
+2	{ C } - {  }
+2	{ 0xf208 } - { k }
+2	{ COMBINING LATIN SMALL LETTER I } - { y }
+2	{ &amp; } - {  }
+2	{ ; } - { &amp; }
+2	{ I } - { g }
+2	{ C } - { T }
+2	{ w } - { i }
+2	{  } - { I }
+2	{ COMBINING ACUTE ACCENT } - { m }
+2	{ COMBINING DOT ABOVE } - { COMBINING OGONEK }
+1	{ ꝉ } - { COMBINING ZIGZAG ABOVE }
+1	{ COMBINING LATIN SMALL LETTER R } - { ⸌ }
+1	{ ⸍ } - { v }
+1	{ þ } - { COMBINING ZIGZAG ABOVE }
+1	{ 0xf067 } - { 0xf07a }
+1	{ 0xf00b } - { SPACE }
+1	{ u } - { h }
+1	{ ð } - { ı }
+1	{ COMBINING MACRON } - { i }
+1	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN LETTER SMALL CAPITAL R }
+1	{  } - { V }
+1	{ ꝺ } - { þ }
+1	{ þ } - { COMBINING US ABOVE }
+1	{ ʙ } - { B }
+1	{ 0xf0ce } - { COMBINING LATIN SMALL LETTER A }
+1	{ 0xf084 } - { ꝼ }
+1	{ 0xe535 } - { SPACE }
+1	{ 0xf087 } - { 0xe7c8 }
+1	{ þ } - { a }
+1	{ . } - { æ }
+1	{ e } - { 0xf02f }
+1	{ ħ } - { n }
+1	{  } - { ɢ }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL N } - {  }
+1	{ 0xf0a6 } - { 0xf0d8 }
+1	{ 0xf064 } - { h }
+1	{ ꝥ } - { P }
+1	{ u } - { 0xe5dc }
+1	{ ʀ } - { 0xf07a }
+1	{ 0xf0b9 } - { 0xf0be }
+1	{ 0xf05f } - { ꝁ }
+1	{ 0xf069 } - { ħ }
+1	{ COMBINING ZIGZAG ABOVE } - { ꝼ }
+1	{ . } - { 0xe74d }
+1	{ COMBINING ZIGZAG ABOVE } - { ð }
+1	{ 0xf054 } - { r }
+1	{ 0xf0be } - { 0xe568 }
+1	{ COMBINING LATIN SMALL LETTER V } - { ꝉ }
+1	{ v } - { 0xe735 }
+1	{ ᴍ } - { o }
+1	{ ı } - { z }
+1	{ ] } - { . }
+1	{ E } - { n }
+1	{ J } - { a }
+1	{ 0xef22 } - { ꝼ }
+1	{ h } - { r }
+1	{ 0xf069 } - { 0xf064 }
+1	{ a } - { J }
+1	{ 0xf05e } - { b }
+1	{ 0xf09a } - { æ }
+1	{ 0xe5b8 } - { COMBINING LATIN SMALL LETTER R }
+1	{  } - { 0xe73a }
+1	{ z } - { ſ }
+1	{ o } - { ⸌ }
+1	{ 0xf069 } - { 0xf06f }
+1	{ ʀ } - { . }
+1	{ n } - { COMBINING LATIN SMALL LETTER R }
+1	{ 0xf09a } - { ꝼ }
+1	{ ᴍ } - { ſ }
+1	{ ſ } - { V }
+1	{ 0xf0b7 } - { y }
+1	{ 0xe735 } - { ı }
+1	{ 0xf084 } - { ı }
+1	{ ꞇ } - { 0xf02f }
+1	{ 0xf0af } - { g }
+1	{ e } - { ꝥ }
+1	{ k } - { ƚ }
+1	{ COMBINING LATIN SMALL LETTER A } - { COMBINING LATIN SMALL LETTER R }
+1	{ ꝉ } - { 0xf02f }
+1	{  } - { q }
+1	{ z } - { COMBINING MACRON }
+1	{ 0xf1c2 } - { n }
+1	{ G } - { o }
+1	{ . } - { 0xe73a }
+1	{ ꝺ } - { ⁊ }
+1	{ æ } - { SPACE }
+1	{ 0xf084 } - { l }
+1	{ 0xf087 } - { ſ }
+1	{ ı } - { c }
+1	{ 0xe5dc } - { e }
+1	{ ı } - { ⁊ }
+1	{ e } - { k }
+1	{ 0xf067 } - { v }
+1	{ ꝥ } - { u }
+1	{ 0xf059 } - { 0xf05f }
+1	{ 0xf0bd } - { ħ }
+1	{ 0xf02f } - { ƚ }
+1	{ ⸍ } - { n }
+1	{ 0xf0e9 } - { ð }
+1	{ ⸍ } - { m }
+1	{ ⁊ } - { ⸌ }
+1	{ COMBINING LATIN SMALL LETTER R } - { . }
+1	{ r } - { COMBINING LATIN SMALL LETTER R }
+1	{ 0xf064 } - { SPACE }
+1	{ 0xeeef } - { v }
+1	{ ⸍ } - { ħ }
+1	{ 0xeeef } - { ⁊ }
+1	{ ⸌ } - { COMBINING DOT ABOVE }
+1	{ ħ } - { J }
+1	{ COMBINING LATIN SMALL LETTER R } - { o }
+1	{ N } - { v }
+1	{ ꝁ } - { ƚ }
+1	{ l } - { 0xef22 }
+1	{  } - { ȷ }
+1	{ g } - { m }
+1	{ G } - { s }
+1	{ 0xf06b } - { SPACE }
+1	{ r } - { 0xf064 }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { COMBINING LATIN SMALL LETTER A }
+1	{ x } - { . }
+1	{ ȷ } - { SPACE }
+1	{ ⸌ } - { . }
+1	{ m } - { k }
+1	{ COMBINING DOT ABOVE } - { g }
+1	{ ꝼ } - { 0xf08a }
+1	{ c } - { ɢ }
+1	{ 0xef22 } - { COMBINING MACRON }
+1	{ ɴ } - { ħ }
+1	{ b } - { ꝥ }
+1	{ . } - { M }
+1	{ COMBINING US ABOVE } - { 0xf1c2 }
+1	{ h } - { COMBINING MACRON }
+1	{ 0xf02f } - { COMBINING LATIN SMALL LETTER I }
+1	{ 0xf08a } - { 0xe735 }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ s } - { . }
+1	{  } - { ƀ }
+1	{ ᴍ } - { ħ }
+1	{ 0xf05f } - { SPACE }
+1	{ COMBINING MACRON } - { a }
+1	{ G } - { SPACE }
+1	{ 0xe5dc } - { ħ }
+1	{ 0xf097 } - {  }
+1	{ 0xf0dc } - { 0xf09d }
+1	{ ꝼ } - { 0xe735 }
+1	{ 0xe7c7 } - { . }
+1	{ ꝺ } - { M }
+1	{ 0xeaf0 } - { a }
+1	{ 0xef22 } - { 0xe5dc }
+1	{ 0xe74d } - { u }
+1	{ ʀ } - { ı }
+1	{ G } - { ꝼ }
+1	{ COMBINING ZIGZAG ABOVE } - { y }
+1	{ SPACE } - { COMBINING LATIN SMALL LETTER R }
+1	{ S } - { v }
+1	{ u } - { COMBINING ZIGZAG ABOVE }
+1	{ 0xeeef } - { N }
+1	{ 0xe735 } - { ſ }
+1	{ e } - { ħ }
+1	{ ꜹ } - {  }
+1	{ a } - { 0xf02f }
+1	{ h } - { ꞇ }
+1	{ ꝉ } - { g }
+1	{ 0xf02f } - { ƀ }
+1	{ ħ } - { a }
+1	{ a } - { ħ }
+1	{ ħ } - { o }
+1	{ 0xf069 } - { g }
+1	{ 0xe665 } - { o }
+1	{ s } - { b }
+1	{ ꝥ } - { c }
+1	{ 0xeee9 } - { J }
+1	{ 0xf059 } - { v }
+1	{ S } - { h }
+1	{ ȷ } - { g }
+1	{ 0xf08b } - { y }
+1	{ c } - { g }
+1	{ 0xf08b } - { ꝼ }
+1	{ 0xf06e } - { 0xf06b }
+1	{ ħ } - { k }
+1	{ COMBINING DOT ABOVE } - { e }
+1	{ æ } - { . }
+1	{ 0xe5b8 } - { SPACE }
+1	{ 0xf05e } - { v }
+1	{ 0xf05e } - { o }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL M } - { COMBINING LATIN SMALL LETTER A }
+1	{ 0xf06f } - { 0xe7c7 }
+1	{ 0xf1c1 } - {  }
+1	{ g } - { k }
+1	{ p } - { k }
+1	{ 0xf06f } - { 0xf06e }
+1	{ y } - { COMBINING US ABOVE }
+1	{ G } - { 0xf0c4 }
+1	{ 0xf08b } - { 0xeee6 }
+1	{ 0xf06f } - { . }
+1	{ 0xf06a } - { h }
+1	{ 0xe7c7 } - { 0xf069 }
+1	{ 0xf08b } - { 0xf05e }
+1	{ 0xf0b9 } - { 0xf079 }
+1	{  } - { 0xf064 }
+1	{ J } - { 0xf08b }
+1	{  } - { , }
+1	{ 0xf06f } - { SPACE }
+1	{  } - { 0xf069 }
+1	{ 0xe74d } - { G }
+1	{ n } - { G }
+1	{ ſ } - { ꝥ }
+1	{ ꝝ } - {  }
+1	{ ꝥ } - { ð }
+1	{ 0xeee7 } - { G }
+1	{ 0xf09e } - { 0xf09a }
+1	{ ⸌ } - { 0xf1c2 }
+1	{ 0xe5b8 } - { r }
+1	{ 0xe5dc } - { ſ }
+1	{ ɴ } - { q }
+1	{ 0xe74d } - { m }
+1	{ COMBINING ACUTE ACCENT } - { c }
+1	{ COMBINING MACRON } - { ð }
+1	{ e } - { y }
+1	{ ꜹ } - { ı }
+1	{ L } - { 0xeee9 }
+1	{ ᴇ } - { ø }
+1	{ 0xf08b } - { 0xe735 }
+1	{ ᴀ } - { 0xeee0 }
+1	{ 0xf1c2 } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+1	{ ⸍ } - { 0xeee6 }
+1	{ 0xf06e } - { . }
+1	{ ꝉ } - { SPACE }
+1	{ . } - { v }
+1	{ 0xf07f } - { k }
+1	{ . } - { 0xf06a }
+1	{ q } - { 0xe681 }
+1	{ ħ } - { ı }
+1	{ 0xf06b } - { . }
+1	{ u } - { ⸍ }
+1	{ 0xf067 } - { 0xf069 }
+1	{ m } - { 0xe5dc }
+1	{ ᴀ } - { M }
+1	{ COMBINING LATIN SMALL LETTER V } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ ı } - { æ }
+1	{ 0xf0a6 } - { 0xf09a }
+1	{ 0xf079 } - { 0xf07a }
+1	{ 0xf05a } - { ħ }
+1	{ ſ } - { ɢ }
+1	{ R } - { B }
+1	{ ꝺ } - { COMBINING ZIGZAG ABOVE }
+1	{ m } - { ⁊ }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { g }
+1	{ 0xf069 } - { G }
+1	{ ƀ } - { l }
+1	{ ƀ } - { b }
+1	{ COMBINING LATIN SMALL LETTER A } - { 0xf1ac }
+1	{ ⸍ } - { ꞇ }
+1	{ E } - { ı }
+1	{ 0xe7c7 } - { k }
+1	{ ⁊ } - { ħ }
+1	{ COMBINING LATIN SMALL LETTER R } - { p }
+1	{ 0xf079 } - { ꝁ }
+1	{ 0xf084 } - { n }
+1	{ COMBINING LATIN SMALL LETTER V } - { ð }
+1	{ 0xf06b } - { g }
+1	{ ƀ } - { SPACE }
+1	{  } - { 0xf05f }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL M } - { . }
+1	{ g } - { J }
+1	{ 0xf06e } - { 0xf02f }
+1	{ ꝺ } - { ſ }
+1	{ 0xf093 } - { ꞇ }
+1	{  } - { 0xe5dc }
+1	{ ɢ } - { n }
+1	{ x } - { ħ }
+1	{ ſ } - { ɴ }
+1	{ 0xe5b8 } - { e }
+1	{ 0xf1c2 } - { COMBINING LATIN SMALL LETTER R }
+1	{ N } - { V }
+1	{ q } - { h }
+1	{ 0xf05f } - { e }
+1	{ ð } - { 0xf02f }
+1	{ SPACE } - { y }
+1	{ p } - { a }
+1	{ 0xf064 } - {  }
+1	{ i } - { COMBINING LATIN SMALL LETTER V }
+1	{ a } - { G }
+1	{ ꝉ } - { ħ }
+1	{ 0xeee9 } - { M }
+1	{ , } - { . }
+1	{ u } - { 0xe5b8 }
+1	{ M } - { O }
+1	{ 0xeee0 } - { ħ }
+1	{ n } - { ħ }
+1	{ 0xf0bb } - { r }
+1	{ þ } - { c }
+1	{ N } - { ⁊ }
+1	{ k } - { y }
+1	{ 0xf07a } - { 0xf064 }
+1	{ p } - { 0xe665 }
+1	{ 0xf103 } - { 0xf02f }
+1	{ ɴ } - { ꞇ }
+1	{ g } - { y }
+1	{ o } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+1	{ S } - { . }
+1	{ 0xf067 } - {  }
+1	{ g } - { ɴ }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { 0xf0cf }
+1	{ ꝁ } - { 0xef22 }
+1	{ A } - { ⸍ }
+1	{ ɴ } - { ᴍ }
+1	{ S } - { N }
+1	{ k } - { . }
+1	{ v } - { ⸍ }
+1	{ COMBINING LATIN SMALL LETTER AE } - { COMBINING LATIN SMALL LETTER A }
+1	{ a } - { p }
+1	{ e } - { ɢ }
+1	{ 0xf059 } - { þ }
+1	{ 0xf094 } - {  }
+1	{ 0xf099 } - { 0xf059 }
+1	{ 0xf0bb } - { z }
+1	{ 0xf067 } - { 0xf08a }
+1	{ ꝺ } - { p }
+1	{ v } - { 0xf05f }
+1	{ COMBINING ZIGZAG ABOVE } - { ⸌ }
+1	{ ꝉ } - { COMBINING LATIN SMALL LETTER A }
+1	{ b } - { ⁊ }
+1	{ 0xf07a } - { ꞇ }
+1	{ COMBINING MACRON } - { k }
+1	{ 0xf09d } - { 0xf06b }
+1	{ 0xf07a } - { 0xe735 }
+1	{ u } - { ħ }
+1	{ ⸍ } - { 0xf087 }
+1	{ COMBINING DOT ABOVE } - { ı }
+1	{ COMBINING LATIN SMALL LETTER ETH } - { 0xf1c2 }
+1	{ 0xf540 } - {  }
+1	{ 0xe5b8 } - { COMBINING MACRON }
+1	{ ð } - { G }
+1	{ ᴍ } - { v }
+1	{ 0xf09a } - { ı }
+1	{  } - { 0xf097 }
+1	{ . } - { COMBINING LATIN SMALL LETTER O }
+1	{ COMBINING LATIN SMALL LETTER A } - { ꝺ }
+1	{ ı } - { p }
+1	{ Ꞇ } - { B }
+1	{ COMBINING ACUTE ACCENT } - { ɴ }
+1	{ n } - { 0xeeef }
+1	{ . } - { H }
+1	{ 0xf0dc } - { 0xf0e9 }
+1	{ . } - { 0xf07a }
+1	{ 0xf069 } - {  }
+1	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN SMALL LETTER A }
+1	{ ꝺ } - { 0xf097 }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { ꝺ }
+1	{ COMBINING LATIN SMALL LETTER V } - { COMBINING LATIN SMALL LETTER A }
+1	{ COMBINING LATIN SMALL LETTER E } - { COMBINING LATIN SMALL LETTER Z }
+1	{ 0xf104 } - { o }
+1	{ 0xeee0 } - { ſ }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { 0xf0ce }
+1	{ ʀ } - { v }
+1	{ r } - { s }
+1	{ 0xf084 } - { h }
+1	{ 0xf06b } - { h }
+1	{ ⁊ } - { S }
+1	{ 0xe735 } - { 0xe7c7 }
+1	{ 0xeeef } - { n }
+1	{ . } - { 0xe7c7 }
+1	{ 0xeeef } - { ꞇ }
+1	{ k } - { 0xf0b9 }
+1	{ ſ } - { G }
+1	{ SPACE } - { COMBINING LATIN SMALL LETTER O }
+1	{ s } - { ⁊ }
+1	{ 0xf07f } - { 0xe7c8 }
+1	{ 0xe5b8 } - { 0xe5dc }
+1	{ 0xeeed } - { 0xeee0 }
+1	{ 0xf0bb } - { l }
+1	{ ꞇ } - { ꝉ }
+1	{ i } - { COMBINING LATIN SMALL LETTER O }
+1	{ 0xf02f } - { COMBINING LATIN SMALL LETTER E }
+1	{ 0xf09a } - { 0xf0a6 }
+1	{ ᴍ } - { g }
+1	{ COMBINING DOT ABOVE } - { 0xf02f }
+1	{ e } - { v }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+1	{ 0xf087 } - { y }
+1	{ ð } - { ⸍ }
+1	{  } - { COMBINING LATIN LETTER SMALL CAPITAL N }
+1	{ 0xf0bb } - { ꝉ }
+1	{ g } - { ꝩ }
+1	{ s } - { q }
+1	{ ꝼ } - { COMBINING MACRON }
+1	{ ꝥ } - { æ }
+1	{ 0xf06a } - { 0xf06e }
+1	{ 0xeee9 } - { ħ }
+1	{ 0xf02f } - { . }
+1	{ ꝺ } - { 0xf05f }
+1	{ 0xf0b9 } - { 0xf07a }
+1	{ SPACE } - { ꝉ }
+1	{ 0xf056 } - { 0xf05a }
+1	{ 0xeeef } - { M }
+1	{ 0xf097 } - { ſ }
+1	{ 0xe5b8 } - { ꞇ }
+1	{ 0xf06f } - { 0xf06b }
+1	{ 0xf056 } - { 0xf059 }
+1	{ 0xf067 } - { 0xf06e }
+1	{ 0xf084 } - { 0xf06b }
+1	{ 0xf05e } - { 0xf05a }
+1	{ 0xf1c2 } - { COMBINING LATIN SMALL LETTER O }
+1	{ ꝉ } - { o }
+1	{ 0xf077 } - { SPACE }
+1	{ 0xe73a } - { ſ }
+1	{ COMBINING ZIGZAG ABOVE } - { COMBINING ACUTE ACCENT }
+1	{  } - { ƚ }
+1	{ ı } - { ⸍ }
+1	{ æ } - { ꜹ }
+1	{ ⸌ } - { COMBINING LATIN SMALL LETTER R }
+1	{ ᴇ } - { 0xeee6 }
+1	{ B } - { SPACE }
+1	{ ⸍ } - { L }
+1	{ b } - { 0xf059 }
+1	{ 0xf06f } - { 0xf0bd }
+1	{ k } - { v }
+1	{ x } - { æ }
+1	{ . } - { 0xf1ac }
+1	{ 0xe7c7 } - { h }
+1	{ 0xf06e } - {  }
+1	{ a } - { COMBINING US ABOVE }
+1	{ 0xf059 } - { 0xf05a }
+1	{ 0xf054 } - { ı }
+1	{ ɪ } - { G }
+1	{ c } - { ð }
+1	{ 0xe665 } - { 0xe74d }
+1	{ COMBINING LATIN SMALL LETTER A } - { 0xf0cf }
+1	{ h } - { ꝼ }
+1	{ 0xf07a } - {  }
+1	{ COMBINING ZIGZAG ABOVE } - { 0xf09d }
+1	{ a } - { COMBINING ZIGZAG ABOVE }
+1	{ ꝁ } - { h }
+1	{ 0xe7c8 } - { k }
+1	{ ꝺ } - { 0xf099 }
+1	{ ꝼ } - { b }
+1	{ x } - { ꝝ }
+1	{ 0xf0d7 } - { 0xf09d }
+1	{ COMBINING ZIGZAG ABOVE } - { COMBINING LATIN LETTER SMALL CAPITAL R }
+1	{ SPACE } - { ħ }
+1	{ ƚ } - { ꞇ }
+1	{ x } - { ð }
+1	{ ɢ } - { g }
+1	{ ı } - { ꝉ }
+1	{ ꞇ } - { ⁊ }
+1	{ ø } - { ⸍ }
+1	{ p } - { COMBINING ZIGZAG ABOVE }
+1	{ ð } - { s }
+1	{ 0xf084 } - { ħ }
+1	{ 0xe7c8 } - { ꝼ }
+1	{ ꞇ } - { COMBINING MACRON }
+1	{ ð } - { ƀ }
+1	{ COMBINING ZIGZAG ABOVE } - { l }
+1	{ ħ } - { . }
+1	{  } - { 0xf06e }
+1	{ 0xf087 } - { a }
+1	{ n } - { 0xf06b }
+1	{ 0xe73a } - { 0xe74d }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL N } - { COMBINING LATIN SMALL LETTER R }
+1	{ c } - { . }
+1	{ l } - { ɴ }
+1	{ 0xef22 } - { 0xf1c2 }
+1	{ 0xf09d } - { a }
+1	{ COMBINING LATIN SMALL LETTER O } - { æ }
+1	{ ꝼ } - { ħ }
+1	{ 0xf06b } - {  }
+1	{ 0xf0bb } - {  }
+1	{ 0xf08a } - { 0xf05f }
+1	{ ſ } - { ꝉ }
+1	{ 0xe5b8 } - { v }
+1	{ 0xeee0 } - { m }
+1	{ a } - { 0xe5b8 }
+1	{ ꝼ } - { o }
+1	{ V } - { y }
+1	{ u } - { s }
+1	{ o } - { ᴍ }
+1	{ ꝁ } - { 0xe7c7 }
+1	{ 0xf065 } - { 0xf064 }
+1	{ ƚ } - { ⸌ }
+1	{ 0xef22 } - { e }
+1	{ V } - { O }
+1	{ m } - { p }
+1	{ 0xf06e } - { 0xf06a }
+1	{ G } - { O }
+1	{ l } - { ꝁ }
+1	{ s } - { ꞇ }
+1	{ 0xf02f } - { a }
+1	{ 0xf094 } - { COMBINING ACUTE ACCENT }
+1	{ 0xe5b8 } - { n }
+1	{ ꞇ } - { E }
+1	{ ɢ } - { SPACE }
+1	{ ƚ } - { m }
+1	{ z } - { e }
+1	{ ʀ } - { g }
+1	{ 0xf06b } - { l }
+1	{ ꝺ } - { O }
+1	{ 0xf08a } - { h }
+1	{ v } - { æ }
+1	{ s } - { COMBINING LATIN SMALL LETTER Z }
+1	{ COMBINING MACRON } - { p }
+1	{ b } - { ꝼ }
+1	{ 0xf09d } - { 0xf0af }
+1	{ ꜹ } - { e }
+1	{ V } - { T }
+1	{ 0xe5b8 } - { h }
+1	{ 0xf06b } - { 0xf067 }
+1	{ ħ } - { ƀ }
+1	{ r } - { ꝝ }
+1	{ 0xf069 } - { h }
+1	{ ꝥ } - { . }
+1	{ 0xf08a } - { 0xf09a }
+1	{ ħ } - { ꝁ }
+1	{ ⸌ } - { k }
+1	{ ɢ } - { e }
+1	{ z } - { p }
+1	{  } - { 0xf054 }
+1	{ COMBINING MACRON } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ u } - { 0xe74d }
+1	{ 0xef22 } - { 0xf077 }
+1	{ ƚ } - { k }
+1	{ A } - { ᴍ }
+1	{ ʀ } - { ꝉ }
+1	{ ȷ } - { J }
+1	{ ƚ } - { ƀ }
+1	{ 0xef22 } - { ꞇ }
+1	{ a } - { COMBINING MACRON }
+1	{ l } - { æ }
+1	{ i } - { k }
+1	{ ꝺ } - { u }
+1	{ 0xf084 } - { a }
+1	{ g } - { ⁊ }
+1	{  } - { 0xe5b8 }
+1	{ u } - { æ }
+1	{ z } - { 0xf07a }
+1	{ 0xf0b9 } - {  }
+1	{ COMBINING MACRON } - { o }
+1	{ ı } - { ɴ }
+1	{ ƚ } - { n }
+1	{ e } - { m }
+1	{ J } - { q }
+1	{ o } - { h }
+1	{ | } - { ı }
+1	{ 0xf0fa } - { a }
+1	{ ð } - { ɢ }
+1	{ l } - { ꝥ }
+1	{ ƚ } - { COMBINING LATIN SMALL LETTER A }
+1	{ y } - { i }
+1	{ ꝺ } - { m }
+1	{ ƚ } - { ı }
+1	{ ꜷ } - { a }
+1	{ a } - { 0xf1ac }
+1	{ l } - { ħ }
+1	{ 0xe425 } - { a }
+1	{ 0xf0bc } - { J }
+1	{ a } - { ꝉ }
+1	{ 0xf0ec } - { ꜹ }
+1	{ ⸌ } - { 0xe5b8 }
+1	{ 0xf0fc } - { ꜹ }
+1	{ 0xebae } - { k }
+1	{ 0xe553 } - { 0xf1c2 }
+1	{ þ } - { 0xf087 }
+1	{ COMBINING OVERLINE } - { 0xf1c2 }
+1	{ 0xf0fd } - { ꜹ }
+1	{ h } - { SPACE }
+1	{ G } - { ⁊ }
+1	{  } - { 0xf067 }
+1	{ k } - { ħ }
+1	{ N } - { 0xeeef }
+1	{ ꝼ } - { ꝁ }
+1	{ ꞇ } - { ħ }
+1	{ e } - { M }
+1	{ h } - { 0xf02f }
+1	{ i } - { ħ }
+1	{ ꝥ } - { p }
+1	{ G } - { ꝺ }
+1	{ ħ } - { SPACE }
+1	{  } - { 0xf06b }
+1	{ 0xeeef } - { ɴ }
+1	{ ꝺ } - { ħ }
+1	{ ð } - { y }
+1	{  } - { ꝁ }
+1	{ 0xf0d8 } - { 0xf099 }
+1	{ 0xe7d3 } - { e }
+1	{ 0xe7d3 } - { ø }
+1	{ 0xe59e } - { ƚ }
+1	{ 0xe73a } - { . }
+1	{ 0xf0d8 } - { ð }
+1	{ 0xf069 } - { 0xf067 }
+1	{ m } - { 0xf02f }
+1	{ 0xe5b8 } - { ꝼ }
+1	{ 0xf0d7 } - { o }
+1	{ ⁊ } - { h }
+1	{ n } - { ʀ }
+1	{ c } - { ꝼ }
+1	{ ƀ } - { ð }
+1	{ ꝼ } - { 0xf084 }
+1	{ COMBINING ZIGZAG ABOVE } - { COMBINING DOT ABOVE }
+1	{ c } - { G }
+1	{ 0xef22 } - { r }
+1	{ ꝁ } - { 0xe735 }
+1	{ J } - { ı }
+1	{ COMBINING ACUTE ACCENT } - { ð }
+1	{ ꝥ } - { s }
+1	{ ꝼ } - { E }
+1	{ ꝥ } - { ƀ }
+1	{ COMBINING LATIN LETTER SMALL CAPITAL R } - { COMBINING LATIN SMALL LETTER Z }
+1	{ SPACE } - { b }
+1	{ COMBINING ACUTE ACCENT } - { v }
+1	{ 0xe553 } - { SPACE }
+1	{ 0xf0cf } - { COMBINING LATIN SMALL LETTER Z }
+1	{ ı } - { s }
+1	{ l } - { 0xf064 }
+1	{ i } - { b }
+1	{ 0xe568 } - { a }
+1	{ ƀ } - { ꞇ }
+1	{ v } - { 0xf1c2 }
+1	{ ᴇ } - { e }
+1	{ ⋅ } - { ɢ }
+1	{ i } - { 0xf064 }
+1	{ 0xf076 } - { ꝼ }
+1	{ . } - { 0xf02f }
+1	{ 0xf0da } - { ħ }
+1	{ þ } - { ħ }
+1	{ 0xf0da } - { 0xf06e }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING LATIN SMALL LETTER Z }
+1	{ 0xf065 } - { 0xf069 }
+1	{ COMBINING MACRON } - { ꝥ }
+1	{ COMBINING ZIGZAG ABOVE } - { z }
+1	{ v } - { c }
+1	{ æ } - { n }
+1	{ ƞ } - { þ }
+1	{ ꞇ } - { COMBINING LATIN SMALL LETTER I }
+1	{ ſ } - { k }
+1	{ S } - { e }
+1	{ O } - { N }
+1	{ ꝼ } - { c }
+1	{ J } - { g }
+1	{ ʜ } - { n }
+1	{ SPACE } - { COMBINING US ABOVE }
+1	{ 0xeee0 } - { SPACE }
+1	{ ı } - { COMBINING LATIN SMALL LETTER O }
+1	{ 0xeee4 } - { P }
+1	{ c } - { n }
+1	{ þ } - { 0xe655 }
+1	{ h } - { COMBINING ZIGZAG ABOVE }
+1	{ n } - { 0xe5b8 }
+1	{ Ꝼ } - { P }
+1	{ ƞ } - { g }
+1	{ O } - {  }
+1	{ _ } - {  }
+1	{ COMBINING LOW LINE } - { g }
+1	{ ⸌ } - { COMBINING US ABOVE }
+1	{ o } - { COMBINING ACUTE ACCENT }
+1	{ x } - { ꞇ }
+1	{ V } - { Y }
+1	{ ʜ } - { ı }
+1	{ h } - { ƞ }
+1	{ Þ } - { B }
+1	{ COMBINING OVERLINE } - { þ }
+1	{ x } - { ı }
+1	{ ꝛ } - { ꞇ }
+1	{ ⸌ } - { e }
+1	{ g } - { æ }
+1	{ ɢ } - { c }
+1	{ Þ } - { 0xeee9 }
+1	{ S } - { O }
+1	{ - } - { ı }
+1	{ T } - { V }
+1	{ - } - { o }
+1	{ e } - { x }
+1	{ COMBINING OGONEK } - { ı }
+1	{ COMBINING OVERLINE } - { COMBINING US ABOVE }
+1	{ g } - { þ }
+1	{ ø } - { COMBINING US ABOVE }
+1	{ o } - { k }
+1	{ ſ } - { COMBINING OVERLINE }
+1	{ 0xeee0 } - { ꝩ }
+1	{ ꝩ } - { COMBINING LATIN SMALL LETTER E }
+1	{ 0xefe3 } - {  }
+1	{ ꝩ } - { r }
+1	{ a } - { - }
+1	{ E } - { ꞇ }
+1	{ 0xf1f1 } - {  }
+1	{ SPACE } - { - }
+1	{ o } - { 0xf1ac }
+1	{ c } - { h }
+1	{ T } - { G }
+1	{ COMBINING US ABOVE } - { o }
+1	{ 0xe440 } - { æ }
+1	{ ſ } - { ⸌ }
+1	{ Þ } - { ꝺ }
+1	{ ð } - { - }
+1	{  } - { 0xe499 }
+1	{ Y } - { h }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { COMBINING OVERLINE }
+1	{ COMBINING LATIN SMALL LETTER A } - { SPACE }
+1	{ COMBINING LATIN SMALL LETTER I } - { COMBINING US ABOVE }
+1	{ ŋ } - { n }
+1	{ SPACE } - { COMBINING OGONEK }
+1	{ 0xeee4 } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+1	{ 0xeee4 } - { COMBINING LATIN SMALL LETTER O }
+1	{ COMBINING LATIN SMALL LETTER V } - { COMBINING LATIN SMALL LETTER I }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { SPACE }
+1	{ R } - { 0xeeec }
+1	{ O } - { | }
+1	{ c } - { COMBINING ACUTE ACCENT }
+1	{ e } - { ꝛ }
+1	{ L } - { 0xeee0 }
+1	{ ꝛ } - { n }
+1	{ d } - { ⸌ }
+1	{ þ } - { SPACE }
+1	{ u } - { Þ }
+1	{ ꝩ } - { e }
+1	{ M } - { 0xeee0 }
+1	{ COMBINING ZIGZAG ABOVE } - { þ }
+1	{ ꝩ } - { ꞇ }
+1	{ e } - { p }
+1	{ m } - { ⸌ }
+1	{ 0xe73a } - { y }
+1	{ . } - { - }
+1	{ C } - { M }
+1	{ COMBINING LOW LINE } - { SPACE }
+1	{ T } - { E }
+1	{ ꝺ } - { ø }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { e }
+1	{ ⸍ } - { COMBINING LATIN SMALL LETTER O }
+1	{ ⸍ } - { ſ }
+1	{ S } - { 0xeee4 }
+1	{ . } - { b }
+1	{ a } - { ⸌ }
+1	{ COMBINING MACRON } - { COMBINING OVERLINE }
+1	{ 0 } - { n }
+1	{ 0 } - { COMBINING US ABOVE }
+1	{ ꝺ } - { 0xeee0 }
+1	{ l } - { ⸍ }
+1	{ ꝩ } - { J }
+1	{ COMBINING LATIN SMALL LETTER Z } - { COMBINING LATIN SMALL LETTER R }
+1	{ O } - { S }
+1	{ s } - { c }
+1	{ 0xe73a } - {  }
+1	{ N } - { 0xeee9 }
+1	{ b } - { o }
+1	{ COMBINING LATIN SMALL LETTER O } - { COMBINING UR ABOVE }
+1	{ COMBINING LATIN SMALL LETTER V } - { COMBINING LATIN SMALL LETTER E }
+1	{ ꝺ } - { z }
+1	{ v } - { Þ }
+1	{ COMBINING ZIGZAG ABOVE } - { ⸍ }
+1	{ e } - { ⸌ }
+1	{ m } - { g }
+1	{ h } - { c }
+1	{ COMBINING LATIN SMALL LETTER Z } - { COMBINING OVERLINE }
+1	{ ⸌ } - { ı }
+1	{ 0xf23c } - { c }
+1	{ F } - { Þ }
+1	{ x } - { ꝩ }
+1	{ d } - { a }
+1	{ ꜵ } - { ꜹ }
+1	{ ŋ } - { ƞ }
+1	{ n } - { x }
+1	{ c } - { E }
+1	{ ⟨ } - { E }
+1	{ COMBINING DOT ABOVE } - { COMBINING LATIN SMALL LETTER I }
+1	{ COMBINING LATIN SMALL LETTER O } - { COMBINING LATIN LETTER SMALL CAPITAL M }
+1	{ a } - { ⸍ }
+1	{ 0xeee1 } - { Þ }
+1	{ ⸍ } - { h }
+1	{ E } - { S }
+1	{ ⸌ } - { m }
+1	{ ꝩ } - { n }
+1	{ ð } - { e }
+1	{ ꝛ } - { a }
+1	{ ꝛ } - { ð }
+1	{ E } - { O }
+1	{ 0xeeed } - { L }
+1	{ COMBINING LATIN SMALL LETTER I } - { 0xeee4 }
+1	{ COMBINING OVERLINE } - { l }
+1	{ ꝩ } - { m }
+1	{ c } - { z }
+1	{ r } - { h }
+1	{ ꝛ } - { . }
+1	{ x } - { COMBINING OGONEK }
+1	{ ꞇ } - { y }
+1	{ COMBINING LATIN SMALL LETTER R } - { n }
+1	{ k } - { ð }
+1	{ m } - { ꝛ }
+1	{ n } - { ꝺ }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { i }
+1	{ 0 } - { l }
+1	{ ⁊ } - { y }
+1	{ ʀ } - { o }
+1	{ y } - { 0xe655 }
+1	{ COMBINING OVERLINE } - { ꝺ }
+1	{ m } - { SPACE }
+1	{ ꝩ } - { g }
+1	{ 0 } - { h }
+1	{ m } - { c }
+1	{ G } - { T }
+1	{ g } - { x }
+1	{ c } - { o }
+1	{ ⁊ } - { 0xe655 }
+1	{ l } - { y }
+1	{ o } - { x }
+1	{ l } - { ꝺ }
+1	{ x } - { g }
+1	{  } - { 0xe553 }
+1	{ 0xf135 } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ o } - { s }
+1	{ _ } - { SPACE }
+1	{ SPACE } - { ꝛ }
+1	{ l } - { 0xeeed }
+1	{ h } - { COMBINING US ABOVE }
+1	{ ꝛ } - { COMBINING ZIGZAG ABOVE }
+1	{ ⁊ } - { þ }
+1	{ COMBINING LATIN SMALL LETTER I } - { SPACE }
+1	{ ⁊ } - { k }
+1	{ COMBINING OGONEK } - { ꞇ }
+1	{ r } - { ꝩ }
+1	{ c } - { k }
+1	{ x } - { ꝼ }
+1	{ ƞ } - { r }
+1	{ ꝺ } - { ı }
+1	{ ꞇ } - { ꝩ }
+1	{ ꞇ } - { h }
+1	{ m } - { þ }
+1	{ E } - { a }
+1	{ þ } - { e }
+1	{ þ } - { i }
+1	{ e } - { COMBINING ACUTE ACCENT }
+1	{ 0 } - { ꞇ }
+1	{ ꞇ } - { b }
+1	{ r } - { - }
+1	{ COMBINING UR ABOVE } - { SPACE }
+1	{ COMBINING LATIN SMALL LETTER R } - { e }
+1	{ i } - { A }
+1	{ ſ } - { I }
+1	{ v } - { x }
+1	{ ʀ } - { x }
+1	{ COMBINING LATIN SMALL LETTER E } - { COMBINING LATIN SMALL LETTER R }
+1	{ . } - { A }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { ⸍ }
+1	{ L } - { Æ }
+1	{ SPACE } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ u } - { 0xf1ac }
+1	{ COMBINING OVERLINE } - { COMBINING LATIN SMALL LETTER A }
+1	{ d } - { n }
+1	{ SPACE } - { t }
+1	{ c } - { COMBINING ZIGZAG ABOVE }
+1	{ t } - { l }
+1	{ A } - { e }
+1	{ e } - { ꜳ }
+1	{ 0xef20 } - { ɢ }
+1	{ D } - { V }
+1	{ h } - { y }
+1	{ ꝛ } - { m }
+1	{ COMBINING OVERLINE } - { u }
+1	{ v } - { COMBINING LATIN SMALL LETTER R }
+1	{ COMBINING LATIN SMALL LETTER I } - { ꝺ }
+1	{ i } - { ꜳ }
+1	{ Æ } - { A }
+1	{ t } - { g }
+1	{ ꝺ } - { COMBINING US ABOVE }
+1	{ . } - { COMBINING LATIN SMALL LETTER R }
+1	{ COMBINING OVERLINE } - { k }
+1	{ l } - { L }
+1	{ b } - { . }
+1	{  } - { B }
+1	{ z } - { t }
+1	{ æ } - { 0xefeb }
+1	{ a } - { COMBINING UR ABOVE }
+1	{ ꝛ } - { COMBINING US ABOVE }
+1	{ . } - { c }
+1	{ 0xe7d3 } - { b }
+1	{ COMBINING LATIN SMALL LETTER U } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ V } - { U }
+1	{  } - { P }
+1	{ ꝺ } - { D }
+1	{  } - { ꜹ }
+1	{ COMBINING US ABOVE } - { COMBINING OVERLINE }
+1	{ COMBINING LATIN SMALL LETTER R } - { COMBINING LATIN SMALL LETTER U }
+1	{ v } - { COMBINING ZIGZAG ABOVE }
+1	{ l } - { f }
+1	{ ſ } - { COMBINING ZIGZAG ABOVE }
+1	{ þ } - { o }
+1	{ p } - { m }
+1	{ t } - { æ }
+1	{ r } - { 0xef22 }
+1	{ i } - { 0xe7d3 }
+1	{ COMBINING LATIN SMALL LETTER U } - { COMBINING LATIN SMALL LETTER I }
+1	{ þ } - { T }
+1	{ þ } - { u }
+1	{ t } - { þ }
+1	{ b } - { t }
+1	{ b } - { m }
+1	{ 0xef20 } - { ð }
+1	{ t } - { COMBINING OVERLINE }
+1	{ e } - { COMBINING LATIN SMALL LETTER O }
+1	{ L } - { E }
+1	{ o } - { ⁊ }
+1	{ 0xf1ac } - { COMBINING OVERLINE }
+1	{ COMBINING OGONEK } - { ꝛ }
+1	{ 0xefeb } - { c }
+1	{ D } - { h }
+1	{ Æ } - { æ }
+1	{ ꜹ } - { ꜳ }
+1	{ t } - { ꝺ }
+1	{ COMBINING LATIN SMALL LETTER I } - { e }
+1	{ æ } - { ꝩ }
+1	{ æ } - { 0xe7d3 }
+1	{ b } - { n }
+1	{ o } - { &amp; }
+1	{ s } - { COMBINING ZIGZAG ABOVE }
+1	{  } - { ꝝ }
+1	{ r } - { COMBINING OVERLINE }
+1	{ y } - { æ }
+1	{ ð } - { S }
+1	{ i } - { o }
+1	{ t } - { COMBINING OGONEK }
+1	{  } - { Þ }
+1	{ þ } - { P }
+1	{ O } - { z }
+1	{ æ } - { ꝛ }
+1	{ u } - { 0xe7d3 }
+1	{ U } - { u }
+1	{ B } - { E }
+1	{ z } - { i }
+1	{ b } - { u }
+1	{ 0xe4e9 } - { e }
+1	{ m } - { COMBINING ACUTE ACCENT }
+1	{ S } - { ꝼ }
+1	{ v } - { COMBINING OVERLINE }
+1	{ COMBINING OGONEK } - { COMBINING ZIGZAG ABOVE }
+1	{ k } - { s }
+1	{ t } - { T }
+1	{ R } - { k }
+1	{ l } - { COMBINING ZIGZAG ABOVE }
+1	{ i } - { COMBINING LATIN SMALL LETTER I }
+1	{ F } - { ſ }
+1	{ t } - { e }
+1	{ 0xe7d3 } - { COMBINING UR ABOVE }
+1	{ R } - { F }
+1	{ COMBINING DOT ABOVE } - { n }
+1	{ T } - { F }
+1	{ e } - { F }
+1	{ ꝛ } - { v }
+1	{ f } - { p }
+1	{  } - { j }
+1	{ V } - { u }
+1	{ Ø } - { 0xebdf }
+1	{ B } - {  }
+1	{ COMBINING ZIGZAG ABOVE } - { COMBINING OGONEK }
+1	{ n } - { ⸍ }
+1	{ COMBINING ACUTE ACCENT } - { u }
+1	{ u } - { COMBINING ACUTE ACCENT }
+1	{ COMBINING OGONEK } - { . }
+1	{ COMBINING LOW LINE } - { COMBINING OVERLINE }
+1	{  } - { H }
+1	{ N } - { ⸍ }
+1	{ u } - { COMBINING OVERLINE }
+1	{ 0xebdf } - {  }
+1	{ COMBINING ACUTE ACCENT } - { ſ }
+1	{ H } - { ⁊ }
+1	{ l } - { COMBINING OGONEK }
+1	{ 0xf208 } - { . }
+1	{ m } - { H }
+1	{ f } - { t }
+1	{ � } - {  }
+1	{ ꝇ } - { . }
+1	{ 0xf23c } - { ᴍ }
+1	{  } - { COMBINING LATIN SMALL LETTER U }
+1	{ ⁊ } - { O }
+1	{ 0xebd0 } - { 0xef22 }
+1	{ COMBINING OVERLINE } - { . }
+1	{ t } - { o }
+1	{ 0xef23 } - { COMBINING ZIGZAG ABOVE }
+1	{ ø } - { 0xebce }
+1	{ 0xebce } - { s }
+1	{ ꝇ } - { n }
+1	{  } - { ; }
+1	{ COMBINING UR ABOVE } - { 0xebdf }
+1	{ COMBINING LATIN SMALL LETTER I } - { t }
+1	{ 0xefe1 } - { a }
+1	{ COMBINING ZIGZAG ABOVE } - { t }
+1	{ æ } - { ⁊ }
+1	{ COMBINING OGONEK } - { COMBINING DOT ABOVE }
+1	{ ꜵ } - { ꜳ }
+1	{ COMBINING LATIN SMALL LETTER I } - { v }
+1	{ COMBINING LATIN SMALL LETTER A } - { a }
+1	{ x } - { e }
+1	{ 0xe715 } - { n }
+1	{ f } - { ſ }
+1	{ H } - { n }
+1	{  } - { &amp; }
+1	{ COMBINING OVERLINE } - { ⁊ }
+1	{ ꝝ } - { COMBINING UR ABOVE }
+1	{ R } - { K }
+1	{ &amp; } - { J }
+1	{ r } - { COMBINING OGONEK }
+1	{ ᚠ } - {  }
+1	{ t } - { u }
+1	{ ; } - { u }
+1	{ ꝇ } - {  }
+1	{ r } - { ʀ }
+1	{ ᛘ } - { ſ }
+1	{ ᚠ } - { ; }
+1	{ a } - { 0xef22 }
+1	{ r } - { ⸌ }
+1	{ ꝼ } - { F }
+1	{ O } - { a }
+1	{ ꝛ } - { ⸌ }
+1	{ COMBINING US ABOVE } - { u }
+1	{ r } - { COMBINING DOT ABOVE }
+1	{ ð } - { ꝼ }
+1	{ ꜳ } - { e }
+1	{ COMBINING US ABOVE } - { COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE }
+1	{ Y } - { y }
+1	{ S } - { Ø }
+1	{ COMBINING LOW LINE } - { i }
+1	{ u } - { c }
+1	{  } - { F }
+1	{ v } - { ð }
+1	{ &#34; } - { SPACE }
+1	{ H } - { a }
+1	{ S } - { H }
+1	{ w } - { u }
+1	{ COMBINING LATIN SMALL LETTER E } - { COMBINING ZIGZAG ABOVE }
+1	{ Ø } - { E }
+1	{ t } - { a }
+1	{ ꝛ } - { ꝝ }
+1	{ u } - { . }
+1	{ o } - { 0xef20 }
+1	{ 0xefeb } - {  }
+1	{ ꜳ } - { . }
+1	{ ꜳ } - { æ }
+1	{ ꝝ } - { ꝛ }
+1	{ c } - { ꝺ }
+1	{ ˙ } - { . }
+1	{ a } - { t }
+1	{  } - { R }
+1	{ K } - { F }
+1	{ t } - { C }
+1	{ COMBINING ZIGZAG ABOVE } - { i }
+1	{ b } - { y }
+1	{  } - { 0xef22 }
+1	{ Y } - {  }
+1	{ m } - { t }
+1	{ æ } - { i }
+1	{ i } - { h }
+1	{ s } - { m }
+1	{ ꝛ } - { u }
+1	{ þ } - { B }
+1	{ 0xefeb } - { z }
+1	{ H } - { I }
+1	{ t } - { A }
+1	{ H } - { F }
+1	{ ꝺ } - { h }
+1	{ COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE } - { j }
+1	{ ⁊ } - { t }
+1	{ e } - { b }
+1	{ n } - { COMBINING DOT ABOVE }
+1	{ e } - { 0xe655 }
+1	{ o } - { G }
+1	{ a } - { COMBINING LATIN SMALL LETTER I }
+1	{  } - { S }
+1	{ N } - { I }
+1	{ COMBINING LATIN SMALL LETTER O } - { ð }
+1	{ a } - { S }
+1	{ L } - { SPACE }
+1	{ y } - { SPACE }
+1	{ COMBINING DOT ABOVE } - { r }
+1	{ N } - { R }
+1	{ u } - { ⁊ }
+1	{ j } - { u }
+1	{ ꝛ } - { p }
+1	{ R } - { L }
+1	{ 0xef22 } - { i }
+1	{ COMBINING ACUTE ACCENT } - { ꝛ }
+1	{ q } - { COMBINING LATIN SMALL LETTER A }
+1	{ ð } - { COMBINING DOT ABOVE }
+1	{ r } - { ; }
+1	{ q } - { c }
+1	{ i } - { p }
+
+Average character accuracy: 97.41%, (stddev: 0.00)
+Average word accuracy: 91.42%, (stddev: 0.00)
+
