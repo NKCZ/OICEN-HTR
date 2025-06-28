@@ -11,10 +11,6 @@ Link to <a href = "https://doi.org/10.5281/zenodo.15315438">Zenodo</a>.
 
 <hr/>
 
-After the first release of this model at the end of April 2025, a different model was released by another team in May: <a href = "https://zenodo.org/records/15366732">Bifrost</a> by Kapytan and Chahan (May 2025). They achieved remarkably good results, despite a significantly smaller training set (see comparison bellow). They used 8 pages from two manuscripts, whereas the "Combined" model from this repository used 73 pages from <i>Alexanders saga</i>, 126 pages from <i>Codex Wormianus</i>, and 255 columns from <i>Möðruvallabók</i>. See their preprint at <a href = "https://enc.hal.science/hal-05088317/">HAL</a>.
-
-<hr/>
-
 <img src="./misc/Kringla_first_and_second_line.jpeg" alt="Kringla first and second line, comparing CATMuS, AlexS and GT." width="600"/>
 
 <i>Some diacritic marks are not rendered correctly neither in the image above nor in the accompanying PDF (?), see the Word document with Junicode.</i>
@@ -172,6 +168,9 @@ ketos test -m AM519_best.mlmodel -f binary dataset.arrow -u NFD -d cuda:0 -B 32 
 ```bash
 ketos train -f binary dataset.arrow -d cuda:0 -o ./AM519 -B 64 -r 0.001
 ```
+<hr/>
+
+After the first release of this model at the end of April 2025, a different model was released by another team in May: <a href = "https://zenodo.org/records/15366732">Bifrost</a> by Kapitan and Chahan (May 2025). They achieved remarkably good results, despite a significantly smaller training set (see comparison bellow). They used 8 pages from two manuscripts, whereas the "Combined" model from this repository used 73 pages from <i>Alexanders saga</i>, 126 pages from <i>Codex Wormianus</i>, and 255 columns from <i>Möðruvallabók</i>. See their preprint at <a href = "https://enc.hal.science/hal-05088317/">HAL</a>.
 
 <h2>Contact</h2>
 <p>For inquiries of any kind, find my contact information on my <a href="https://nkcz.github.io/">website</a>.</p>
