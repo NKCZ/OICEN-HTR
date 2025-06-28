@@ -170,7 +170,7 @@ ketos train -f binary dataset.arrow -d cuda:0 -o ./AM519 -B 64 -r 0.001
 ```
 <h2>Other OICE HTR Models (as of June 2025)</h2>
 
-A different model was released by another team in May 2025: <a href = "https://zenodo.org/records/15366732">Bifrost</a> by Kapitan and Chahan. They achieved remarkably good results, despite a significantly smaller training set (see comparison above). They used 8 pages from two manuscripts, whereas the "Combined" model from this repository used 73 pages from <i>Alexanders saga</i>, 126 pages from <i>Codex Wormianus</i>, and 255 columns from <i>Möðruvallabók</i>. See their preprint at <a href = "https://enc.hal.science/hal-05088317/">HAL</a>.
+A different model was released by another team in May 2025: <a href = "https://zenodo.org/records/15366732">Bifrost</a> by Kapitan and Vidal-Gorène. They achieved remarkably good results, despite a significantly smaller training set (see comparison above). They used 8 pages from two manuscripts, whereas the "Combined" model from this repository used 73 pages from <i>Alexanders saga</i>, 126 pages from <i>Codex Wormianus</i>, and 255 columns from <i>Möðruvallabók</i>. See their preprint at <a href = "https://enc.hal.science/hal-05088317/">HAL</a>.
 
 <h2>Contact</h2>
 <p>For inquiries of any kind, find my contact information on my <a href="https://nkcz.github.io/">website</a>.</p>
