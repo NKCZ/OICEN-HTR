@@ -139,7 +139,7 @@ Link to <a href = "https://doi.org/10.5281/zenodo.15315438">Zenodo</a>.
 
 <h2>Details</h2>
 
-- Annotation based on the facsimile level of the manuscripts (see Menota's approach to encoding manuscripts)
+- Annotation based on the facsimile level encoding of the manuscripts (see Menota's approach to encoding manuscripts)
 
 - eScriptorium was utilised to align text to lines.
 
@@ -170,7 +170,9 @@ ketos train -f binary dataset.arrow -d cuda:0 -o ./AM519 -B 64 -r 0.001
 ```
 <h2>Other OICE HTR Models (as of June 2025)</h2>
 
-A different model was released by another team in May 2025: <a href = "https://zenodo.org/records/15366732">Bifrost</a> by Kapitan and Vidal-Gorène. They achieved remarkably good results, despite a significantly smaller training set (see comparison above). They used 8 pages from two manuscripts, whereas the "Combined" model from this repository used 73 pages from <i>Alexanders saga</i>, 126 pages from <i>Codex Wormianus</i>, and 255 columns from <i>Möðruvallabók</i>. See their preprint at <a href = "https://enc.hal.science/hal-05088317/">HAL</a>.
+The first model (AlexS) from this repository was released on 28.04.2025.
+
+I was unaware of an undergoing development by another team, but in May 2025 <a href = "https://zenodo.org/records/15366732">Bifrost</a> was released by Kapitan and Vidal-Gorène. They achieved remarkably good results, despite a significantly smaller training set (see comparison above). They used 8 pages from two manuscripts, whereas the "Combined" model from this repository used 73 pages from <i>Alexanders saga</i>, 126 pages from <i>Codex Wormianus</i>, and 255 columns from <i>Möðruvallabók</i>. See their preprint at <a href = "https://enc.hal.science/hal-05088317/">HAL</a>.
 
 <h2>Contact</h2>
 <p>For inquiries of any kind, find my contact information on my <a href="https://nkcz.github.io/">website</a>.</p>
